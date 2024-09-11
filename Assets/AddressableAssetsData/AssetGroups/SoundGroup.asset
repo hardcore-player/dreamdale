@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SoundGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: SoundGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d7a81f7bc46d142c4bc57b07f47a4254
+  m_SerializeEntries:
+  - m_GUID: c85e7f259d9f942e5b7893e73cc0ec04
+    m_Address: Assets/Deal/GameResSound/Sound/ArmourUI2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff47a521fc66b412ca415904b821ee7f
+    m_Address: Assets/Deal/GameResSound/Sound/B_builded.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 02b7d9045a8504ec789fdfe138550054
+    m_Address: Assets/Deal/GameResSound/Sound/BGM_Main.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46af3b209619043b098930e4b41c3db6
+    m_Address: Assets/Deal/GameResSound/Sound/bilngGameSound10.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0cb1969a60984e518a60104f87ba41a
+    m_Address: Assets/Deal/GameResSound/Sound/Build_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81b645a614fa94a4fb27e087f74192bf
+    m_Address: Assets/Deal/GameResSound/Sound/click_shop.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da395bf82dc774889bb3db8f8c3a54a0
+    m_Address: Assets/Deal/GameResSound/Sound/dig_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 993610deee71e47549bdcc36e030edbf
+    m_Address: Assets/Deal/GameResSound/Sound/errorClick36.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f14eed6f9eb364939987adbfded9df2a
+    m_Address: Assets/Deal/GameResSound/Sound/fireball_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7ce369f01ff946d79da9c8bc50a0c0f
+    m_Address: Assets/Deal/GameResSound/Sound/fish_finish.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a419b009fcff442e688606e6770c4ea3
+    m_Address: Assets/Deal/GameResSound/Sound/fish_start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9c6577c4a3e748e5b448558d82f88d1
+    m_Address: Assets/Deal/GameResSound/Sound/Footstepadd.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8871cd975cfc7482d9e27c27c736bf8b
+    m_Address: Assets/Deal/GameResSound/Sound/heal_player.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf4c439da8fb745c0a06114784162987
+    m_Address: Assets/Deal/GameResSound/Sound/hit_wood_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a28beba693094980b3313a564677297
+    m_Address: Assets/Deal/GameResSound/Sound/hit_wood_06.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1331daadf145149b8b0a5127321b52b9
+    m_Address: Assets/Deal/GameResSound/Sound/pop_02.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 013f823194c9f46e7aeb57e10e1983f8
+    m_Address: Assets/Deal/GameResSound/Sound/portal_earthshake_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f468677ae696a49999cea363359dc2e6
+    m_Address: Assets/Deal/GameResSound/Sound/resource_06.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2abff5a6a77914884915cfd6000b3e99
+    m_Address: Assets/Deal/GameResSound/Sound/Stab24_1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8ab40ed1fd9b46a5a7eb287631a4d4e
+    m_Address: Assets/Deal/GameResSound/Sound/step_single.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a65892c80120426b8a3a488b8947e81
+    m_Address: Assets/Deal/GameResSound/Sound/stone_hit_02.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06cfa2ae61af94e9aa3bc17ad724d02f
+    m_Address: Assets/Deal/GameResSound/Sound/stone_hit_03.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2fffe7350fb143429be4ad5ad759911
+    m_Address: Assets/Deal/GameResSound/Sound/sword_hit_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0c03dba1b2c140e4ab5509f22380e6a
+    m_Address: Assets/Deal/GameResSound/Sound/ui_click.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91a8ca154612942d99dc50d8af2c8800
+    m_Address: Assets/Deal/GameResSound/Sound/ui_open_01.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5872ec1d12d584afc8cbdfa6645c2425
+    m_Address: Assets/Deal/GameResSound/Sound/Viento_sound.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbd340983214847d1b4119f18aff727c
+    m_Address: Assets/Deal/GameResSound/Sound/water_wave_sound.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7a68596eeb97f481586f1c8f63f9cb84, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e00384e3565f8480f9fa03fbbcb50711, type: 2}
+    - {fileID: 11400000, guid: 268d8317998f64ec4b0b68fbffa28f72, type: 2}

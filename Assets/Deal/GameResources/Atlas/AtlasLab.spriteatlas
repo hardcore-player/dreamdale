@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AtlasLab
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9ed69d0e8f83940c492eb14cbba33988, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c665e041951d848a2a189f58fe57a778, type: 3}
+  - {fileID: 21300000, guid: 883c1634847f441818be24656450ad95, type: 3}
+  - {fileID: 21300000, guid: efed95a43604f42f7bfdd1daf4bd3f1e, type: 3}
+  - {fileID: 21300000, guid: 05d2bbb4c53374db3824e6a6ffb02c4d, type: 3}
+  - {fileID: 21300000, guid: ec2a03d551c8243d68b2aa36d944443d, type: 3}
+  - {fileID: 21300000, guid: 98d427868ea9c4e889f18a2cbd63acd3, type: 3}
+  - {fileID: 21300000, guid: 16689e1768cc44231a4c7aa2638cbf09, type: 3}
+  - {fileID: 21300000, guid: 73b4c657e465749a8ade661276c5e76a, type: 3}
+  - {fileID: 21300000, guid: 69e848e838cb44f3dbc7aaaad6f9a404, type: 3}
+  - {fileID: 21300000, guid: f21a997aa84124f689cbffc8882c5ac6, type: 3}
+  - {fileID: 21300000, guid: 3953745be2dc24de5a8f36fd44301d74, type: 3}
+  - {fileID: 21300000, guid: 923f09ab958f44f0dab9d96b1afcf075, type: 3}
+  - {fileID: 21300000, guid: 0695175c49e014267a7dc2faa0aa651c, type: 3}
+  - {fileID: 21300000, guid: 952c10feaec37467e9077a54393958b8, type: 3}
+  - {fileID: 21300000, guid: 01d0c95f1d482446cb8c0ffd958b5c51, type: 3}
+  - {fileID: 21300000, guid: fe69fb6f97a294d86876c1114b40a385, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - img_lab_buildicon8
+  - img_lab_icon0
+  - img_lab_buildicon1
+  - img_lab_buildicon5
+  - img_lab_buildicon6
+  - img_lab_bar_ok
+  - img_lab_lock
+  - img_lab_bar1_ok
+  - img_lab_buildicon3
+  - img_lab_point_ok
+  - img_lab_buildicon2
+  - img_lab_buildicon7
+  - img_lab_bar_normal
+  - img_lab_bar1_normal
+  - img_lab_point_normal
+  - img_lab_buildicon4
+  m_RenderDataMap: {}
+  m_Tag: AtlasLab
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

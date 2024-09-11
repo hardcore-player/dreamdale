@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AtlasHall
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3a377d1d76437471ca7c7658f87f45f0, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 65ac1df14cdb24a4b9840a888a55b536, type: 3}
+  - {fileID: 21300000, guid: b03e03f3632a94f42bbe73b4a4dc35b2, type: 3}
+  - {fileID: 21300000, guid: ca9f1a04ef1984642b6784256a3ad64c, type: 3}
+  - {fileID: 21300000, guid: 5e91b5b4132b84f9bb02da5b7de58cbb, type: 3}
+  - {fileID: 21300000, guid: 6c9e8125f2abd4c1dbed25da435d6211, type: 3}
+  - {fileID: 21300000, guid: b81a5765b06aa41b2845f969cc4e48ad, type: 3}
+  - {fileID: 21300000, guid: c66c4336c65884a9ca38d2e7f5a98ca4, type: 3}
+  - {fileID: 21300000, guid: cc90b8478ee5049cabdc85d19d4f8a18, type: 3}
+  - {fileID: 21300000, guid: d6485f97a61e34a5eadb04b12f2cb7cb, type: 3}
+  - {fileID: 21300000, guid: 5ae6d6f71643e439d8264b43c9116651, type: 3}
+  - {fileID: 21300000, guid: 88707cb8c8304445e8f3f483730f289e, type: 3}
+  - {fileID: 21300000, guid: 21d3f9595fc004fe6a0e3c9d5e9d7148, type: 3}
+  - {fileID: 21300000, guid: 3136ac8af4c0c4968851497f7d561d5b, type: 3}
+  - {fileID: 21300000, guid: 4002e5ba0c0484707b71b4f8fc421a87, type: 3}
+  - {fileID: 21300000, guid: e212fe1b7ffbc4e53a8a49d00d983db0, type: 3}
+  - {fileID: 21300000, guid: c1bd414bd8cf54b599575638baa99d98, type: 3}
+  - {fileID: 21300000, guid: 7ebea70cf82214f5da3f685c304545c3, type: 3}
+  - {fileID: 21300000, guid: 7ea7280c2b2d0408a88a5521acfc3466, type: 3}
+  - {fileID: 21300000, guid: 17d3463da1b504f0690862720d32c71c, type: 3}
+  - {fileID: 21300000, guid: fca454fd8fac34582a8eb3c04166de4f, type: 3}
+  - {fileID: 21300000, guid: d8c1a34ed8b934568baf0d40b6ecd8ea, type: 3}
+  - {fileID: 21300000, guid: 021023be6638845858ad4ee688510e78, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - img_HallIcon7
+  - img_HallIcon12
+  - img_HallIcon14
+  - img_HallIcon5
+  - img_HallIcon17
+  - img_HallIcon8
+  - img_HallIcon19
+  - img_HallIcon4
+  - img_HallIcon0
+  - img_HallIcon13
+  - img_HallIcon16
+  - img_HallIcon20
+  - img_HallIcon11
+  - img_HallIcon6
+  - img_HallIcon3
+  - img_HallIcon15
+  - img_HallIcon9
+  - img_HallIcon18
+  - img_HallIcon2
+  - img_HallIcon10
+  - img_HallIcon21
+  - img_HallIcon1
+  m_RenderDataMap: {}
+  m_Tag: AtlasHall
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

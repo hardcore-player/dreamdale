@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AtlasShop
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3829bdcd795684ea3a688f0852f2e8f7, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2869823119806420c9a21e8ff9f1ff1b, type: 3}
+  - {fileID: 21300000, guid: 004aae7117bea451ab5b742df3fe4cdc, type: 3}
+  - {fileID: 21300000, guid: d28eb6816aaaa439ea9bf7accf3c533b, type: 3}
+  - {fileID: 21300000, guid: d31f3ed1611fc469aa678d5844b1600e, type: 3}
+  - {fileID: 21300000, guid: 069a30f1db48a474b9d9d38300f551f2, type: 3}
+  - {fileID: 21300000, guid: 03be3fa22141445b2aaab02cc3349788, type: 3}
+  - {fileID: 21300000, guid: 24b8f1c2cd9af4963aa546e11544dded, type: 3}
+  - {fileID: 21300000, guid: c532ab13135154685a7843a82383b70d, type: 3}
+  - {fileID: 21300000, guid: a8c0a353bdf574291838e810154b8a02, type: 3}
+  - {fileID: 21300000, guid: b8c8665300df944ab8b14319047e734f, type: 3}
+  - {fileID: 21300000, guid: 5f07a853d66a44df48e3a781c2aefc8f, type: 3}
+  - {fileID: 21300000, guid: 39ada4b3356a6479c8a52742453c7205, type: 3}
+  - {fileID: 21300000, guid: 3a0f87d38a87940c897a9e388a14616d, type: 3}
+  - {fileID: 21300000, guid: d02dc254067c44a8e9c3555b7364bc3a, type: 3}
+  - {fileID: 21300000, guid: 4ca7ea54e75ed4de1a62bf8eaa006a6a, type: 3}
+  - {fileID: 21300000, guid: 8fad80a4d0f814c779d0ab8416f69e5a, type: 3}
+  - {fileID: 21300000, guid: a3544e458ca164bd988cc68c29f97057, type: 3}
+  - {fileID: 21300000, guid: beaf056593df44cfcaa306071952a7a9, type: 3}
+  - {fileID: 21300000, guid: e3c4e376966bc4c64b028c0e07664886, type: 3}
+  - {fileID: 21300000, guid: 88b17ff61a917495ebe4cb6bdb00e034, type: 3}
+  - {fileID: 21300000, guid: 00db46678f159452fbdc81e932dbdf96, type: 3}
+  - {fileID: 21300000, guid: 1c6c6d973ae0b4450a91f70d586d4f32, type: 3}
+  - {fileID: 21300000, guid: 4379a6f7354784a7c9016803e7653bcc, type: 3}
+  - {fileID: 21300000, guid: e5a7d518f6adc4fa28b03339d36ece6d, type: 3}
+  - {fileID: 21300000, guid: 40b0dfb839ee142b789f94545667b56d, type: 3}
+  - {fileID: 21300000, guid: 889a96199b9864bce9a50eaa4e697759, type: 3}
+  - {fileID: 21300000, guid: 06c6d329d80d549d8a23a4da65ee3318, type: 3}
+  - {fileID: 21300000, guid: 2b5bb039a8109431aaf4b40541f29ddc, type: 3}
+  - {fileID: 21300000, guid: c2afb66aa3f404734866c00d52a5ce49, type: 3}
+  - {fileID: 21300000, guid: 87ed757a56b224a44a0cb9158ebe25ae, type: 3}
+  - {fileID: 21300000, guid: 2407ebaa6ca4a4a5fa986473bec0f169, type: 3}
+  - {fileID: 21300000, guid: 036e9b0bdc77d481baf310093f79b733, type: 3}
+  - {fileID: 21300000, guid: 1387fe5bc8ddc47a59732bcc1900c12d, type: 3}
+  - {fileID: 21300000, guid: 249fdf5b6cd1941dbbba66801b9df748, type: 3}
+  - {fileID: 21300000, guid: 7f0f7f6b417654947a6834312010cb46, type: 3}
+  - {fileID: 21300000, guid: d0d584bb77d624b9a8fd6dd314558c54, type: 3}
+  - {fileID: 21300000, guid: 4a94a0cbda1e5480f90fdafdc3db46b3, type: 3}
+  - {fileID: 21300000, guid: 6abddbcbf4af844cdbc036577ed37f92, type: 3}
+  - {fileID: 21300000, guid: 9901115c53be54d58a2fd3e8cbce62a4, type: 3}
+  - {fileID: 21300000, guid: 574e58bc2d0e9487694c32952b030786, type: 3}
+  - {fileID: 21300000, guid: 47ebfcedc2e3949bdac309d15f273d13, type: 3}
+  - {fileID: 21300000, guid: f893981e85fd24ccaafa3140d4655469, type: 3}
+  - {fileID: 21300000, guid: c68e302e755d54726a6cbb6632848989, type: 3}
+  - {fileID: 21300000, guid: 3649813e72699455d9c9afee13f52694, type: 3}
+  - {fileID: 21300000, guid: f2a1515e539604fcaad2e1d2f335358d, type: 3}
+  - {fileID: 21300000, guid: 09ee036e4d23a4ff7b2ea3820aadefa1, type: 3}
+  - {fileID: 21300000, guid: 2141747ef67bc4c0cb86f0b8227c3005, type: 3}
+  - {fileID: 21300000, guid: aaed8c8e865e04450b8323fddb8eaf08, type: 3}
+  - {fileID: 21300000, guid: 0c52829eb78034e7787167b4abd2f51b, type: 3}
+  - {fileID: 21300000, guid: 5badc5be20cff48899a8af2f9c6b42c1, type: 3}
+  - {fileID: 21300000, guid: f5620ffe26e6945b8a15317ee77492c8, type: 3}
+  - {fileID: 21300000, guid: 3746201f73e844dfb89c06118f66ac8b, type: 3}
+  - {fileID: 21300000, guid: f45f158f597cd47f5b405635b32f868d, type: 3}
+  - {fileID: 21300000, guid: 5e7a059fec6b14b779e4ae1ef3ac3763, type: 3}
+  - {fileID: 21300000, guid: 8f7cadaf601ac4ca0988ae73f72a8747, type: 3}
+  - {fileID: 21300000, guid: a27ef0bf4b4c2495ba8524ceb48213b6, type: 3}
+  - {fileID: 21300000, guid: 5b3542bf1c63e4a1ab0dc7ef5355533d, type: 3}
+  - {fileID: 21300000, guid: db5530ffd9b6747a89adb2199d69b476, type: 3}
+  - {fileID: 21300000, guid: f9984bffdc2e34cc3b0767150548590a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - img_shop_gold4
+  - effect_light7
+  - img_limitreward_icon0
+  - img_shop_bgL_2
+  - img_shop_gem3
+  - effect_light6
+  - img_shop_gold3
+  - img_vipiconL0
+  - img_reschest_icon4
+  - effect_light1
+  - img_vipiconB0
+  - img_reschest_icon1
+  - img_Shop_light
+  - img_shop_bgM_1
+  - img_shop_bgM_2
+  - btn_shop_title0
+  - effect_light5
+  - img_shop_bgL_1
+  - img_shop_item0
+  - img_reschest_icon2
+  - img_shop_bottomtab_bg0
+  - img_shop_bgL_4
+  - img_shop_title0
+  - img_shop_item1
+  - img_shop_noadsicon0
+  - img_shop_vipbg0
+  - img_shop_gold2
+  - img_shop_gold5
+  - img_shop_scroll3
+  - img_shop_bottomtab_cutline0
+  - img_shop_item4
+  - img_shop_bg0
+  - img_shop_itemB0
+  - img_shop_titlenamebg0
+  - img_shop_bgB_1
+  - img_shop_item2
+  - img_shop_bgB_2
+  - img_shop_gem2
+  - img_shop_bgM_3
+  - img_shop_addicon
+  - effect_light3
+  - img_shop_gold6
+  - img_shop_scroll2
+  - img_shop_bgM_4
+  - img_shop_adcard2
+  - img_shop_gem1
+  - effect_light4
+  - img_shop_item3
+  - img_shop_bgL_3
+  - img_shop_scroll1
+  - img_shop_adcard1
+  - img_shop_bgB_3
+  - img_shop_bgB_4
+  - img_shop_gold1
+  - img_shop_rewardnamebg0
+  - effect_light2
+  - img_reschest_icon3
+  - img_shop_adcard3
+  - img_shop_bgL_0
+  m_RenderDataMap: {}
+  m_Tag: AtlasShop
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

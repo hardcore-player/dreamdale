@@ -1,0 +1,6326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1a893c183004441a0c84f956560645, type: 3}
+  m_Name: ConfigMgrSObj
+  m_EditorClassIdentifier: 
+  arenas:
+  - id: 1
+    price: 0100000001000000
+    goods:
+    - Gold
+    - Gem
+    num: 1027000064000000
+  - id: 2
+    price: 0200000002000000
+    goods:
+    - Gold
+    - Gem
+    num: 282300005a000000
+  - id: 3
+    price: 0300000003000000
+    goods:
+    - Gold
+    - Gem
+    num: 401f000050000000
+  - id: 4
+    price: 0400000005000000
+    goods:
+    - Gold
+    - Gem
+    num: 4c1d00004b000000
+  - id: 5
+    price: 060000000a000000
+    goods:
+    - Gold
+    - Gem
+    num: 6419000041000000
+  - id: 6
+    price: 0b00000014000000
+    goods:
+    - Gold
+    - Gem
+    num: 4416000039000000
+  - id: 7
+    price: 150000001e000000
+    goods:
+    - Gold
+    - Gem
+    num: 8813000032000000
+  - id: 8
+    price: 1f00000032000000
+    goods:
+    - Gold
+    - Gem
+    num: 941100002d000000
+  - id: 8
+    price: 3300000064000000
+    goods:
+    - Gold
+    - Gem
+    num: a00f000028000000
+  - id: 9
+    price: 65000000c8000000
+    goods:
+    - Gold
+    - Gem
+    num: ac0d000023000000
+  - id: 10
+    price: c90000002c010000
+    goods:
+    - Gold
+    - Gem
+    num: b80b00001e000000
+  - id: 11
+    price: 2d010000f4010000
+    goods:
+    - Gold
+    - Gem
+    num: c409000019000000
+  - id: 12
+    price: f5010000e8030000
+    goods:
+    - Gold
+    - Gem
+    num: d007000014000000
+  - id: 13
+    price: e9030000d0070000
+    goods:
+    - Gold
+    - Gem
+    num: a406000011000000
+  - id: 14
+    price: d1070000b80b0000
+    goods:
+    - Gold
+    - Gem
+    num: 140500000d000000
+  - id: 15
+    price: b90b0000a00f0000
+    goods:
+    - Gold
+    - Gem
+    num: 2003000008000000
+  - id: 16
+    price: a10f000088130000
+    goods:
+    - Gold
+    - Gem
+    num: f401000005000000
+  - id: 17
+    price: 891300009f860100
+    goods:
+    - Gold
+    - Gem
+    num: c800000002000000
+  dailys:
+  - id: 1
+    goods: GoldAxe
+    num: 1
+    desc: "\u89C2\u770B5\u6B21\u5E7F\u544A"
+    req: 5
+    type: video
+  - id: 2
+    goods: GoldPick
+    num: 1
+    desc: "\u89C2\u770B10\u6B21\u5E7F\u544A"
+    req: 10
+    type: video
+  - id: 3
+    goods: Gold
+    num: 10000
+    desc: "\u89C2\u770B15\u6B21\u5E7F\u544A"
+    req: 15
+    type: video
+  - id: 4
+    goods: Gem
+    num: 20
+    desc: "\u91C7\u96C6\u4EFB\u610F\u8D44\u6E90200\u4E2A"
+    req: 200
+    type: collect
+  - id: 5
+    goods: Scroll
+    num: 20
+    desc: "\u6536\u96C6\u4EFB\u610F\u5DE5\u5382\u4EA7\u54C150\u4E2A"
+    req: 50
+    type: collectFactory
+  - id: 6
+    goods: AncientShard
+    num: 20
+    desc: "\u63165\u4E2A\u5B9D\u85CF"
+    req: 5
+    type: action
+  - id: 7
+    goods: Gem
+    num: 20
+    desc: "\u8D2D\u4E701\u5757\u5730"
+    req: 1
+    type: land
+  - id: 8
+    goods: Gold
+    num: 500
+    desc: "\u6BCF\u65E5\u767B\u5F55"
+    req: 1
+    type: login
+  - id: 9
+    goods: Rune
+    num: 10
+    desc: "\u51FB\u674010\u4E2A\u654C\u4EBA"
+    req: 10
+    type: kill
+  - id: 10
+    goods: Gem
+    num: 30
+    desc: "\u91C7\u96C6\u4EFB\u610F\u8D44\u6E90400\u4E2A"
+    req: 400
+    type: collect
+  - id: 11
+    goods: Scroll
+    num: 30
+    desc: "\u6536\u96C6\u4EFB\u610F\u5DE5\u5382\u4EA7\u54C1100\u4E2A"
+    req: 100
+    type: collectFactory
+  - id: 12
+    goods: AncientShard
+    num: 30
+    desc: "\u631610\u4E2A\u5B9D\u85CF"
+    req: 10
+    type: action
+  - id: 13
+    goods: Gem
+    num: 30
+    desc: "\u8D2D\u4E702\u5757\u5730"
+    req: 2
+    type: land
+  - id: 14
+    goods: Rune
+    num: 20
+    desc: "\u51FB\u674020\u4E2A\u654C\u4EBA"
+    req: 20
+    type: kill
+  - id: 15
+    goods: Gem
+    num: 50
+    desc: "\u91C7\u96C6\u4EFB\u610F\u8D44\u6E90800\u4E2A"
+    req: 800
+    type: collect
+  - id: 16
+    goods: Scroll
+    num: 50
+    desc: "\u6536\u96C6\u4EFB\u610F\u5DE5\u5382\u4EA7\u54C1200\u4E2A"
+    req: 200
+    type: collectFactory
+  - id: 17
+    goods: AncientShard
+    num: 50
+    desc: "\u631615\u4E2A\u5B9D\u85CF"
+    req: 15
+    type: action
+  - id: 18
+    goods: Gem
+    num: 50
+    desc: "\u8D2D\u4E705\u5757\u5730"
+    req: 5
+    type: land
+  - id: 19
+    goods: Rune
+    num: 30
+    desc: "\u51FB\u674030\u4E2A\u654C\u4EBA"
+    req: 30
+    type: kill
+  diamonds:
+  - id: 1
+    name: Sapphire
+    production: 19000000280000003c000000
+    speed: 0a0000001900000032000000
+    capacity: 140000002300000032000000
+    pValue: 01000000020000000400000008000000
+    sValue:
+    - 12
+    - 6
+    - 3
+    - 1.5
+    cValue: 01000000020000000800000020000000
+  - id: 2
+    name: Ruby
+    production: 460000005a00000073000000
+    speed: 3c0000005000000064000000
+    capacity: 41000000550000006e000000
+    pValue: 01000000020000000400000008000000
+    sValue:
+    - 24
+    - 12
+    - 6
+    - 3
+    cValue: 01000000020000000800000018000000
+  - id: 3
+    name: Emerald
+    production: a0000000c8000000f0000000
+    speed: 91000000b4000000dc000000
+    capacity: be000000e600000004010000
+    pValue: 01000000020000000400000008000000
+    sValue:
+    - 48
+    - 24
+    - 12
+    - 6
+    cValue: 01000000020000000400000010000000
+  - id: 4
+    name: Amethyst
+    production: 2c0100005e01000090010000
+    speed: 180100004501000077010000
+    capacity: 8601000068010000c2010000
+    pValue: 01000000020000000400000008000000
+    sValue:
+    - 96
+    - 48
+    - 24
+    - 12
+    cValue: 01000000020000000400000008000000
+  dungeons:
+  - id: 1
+    num: 0.3
+    sp: 1
+  - id: 2
+    num: 0.7
+    sp: 1
+  - id: 3
+    num: 1.1
+    sp: 1
+  - id: 4
+    num: 1.5
+    sp: 1
+  - id: 5
+    num: 1.9
+    sp: 1
+  - id: 6
+    num: 2.3
+    sp: 1
+  - id: 7
+    num: 2.7
+    sp: 1
+  - id: 8
+    num: 3.1
+    sp: 1
+  - id: 9
+    num: 3.5
+    sp: 1
+  - id: 10
+    num: 3.9
+    sp: 1
+  - id: 11
+    num: 4.3
+    sp: 1
+  - id: 12
+    num: 4.7
+    sp: 1
+  - id: 13
+    num: 5.1
+    sp: 1
+  - id: 14
+    num: 5.5
+    sp: 1
+  - id: 15
+    num: 5.9
+    sp: 1
+  - id: 16
+    num: 6.3
+    sp: 1
+  - id: 17
+    num: 6.7
+    sp: 1
+  - id: 18
+    num: 7.1
+    sp: 1
+  - id: 19
+    num: 7.5
+    sp: 1
+  - id: 20
+    num: 7.9
+    sp: 1
+  - id: 21
+    num: 8.3
+    sp: 1
+  - id: 22
+    num: 8.7
+    sp: 1
+  - id: 23
+    num: 9.1
+    sp: 1
+  - id: 24
+    num: 9.5
+    sp: 1
+  - id: 25
+    num: 9.9
+    sp: 1
+  - id: 26
+    num: 10.3
+    sp: 1
+  - id: 27
+    num: 10.7
+    sp: 1
+  - id: 28
+    num: 11.1
+    sp: 1
+  - id: 29
+    num: 11.5
+    sp: 1
+  - id: 30
+    num: 11.9
+    sp: 1
+  - id: 31
+    num: 12.3
+    sp: 1
+  - id: 32
+    num: 12.7
+    sp: 1
+  - id: 33
+    num: 13.1
+    sp: 1
+  - id: 34
+    num: 13.5
+    sp: 1
+  - id: 35
+    num: 13.9
+    sp: 1
+  - id: 36
+    num: 14.3
+    sp: 1
+  - id: 37
+    num: 14.7
+    sp: 1
+  - id: 38
+    num: 15.1
+    sp: 1
+  - id: 39
+    num: 15.5
+    sp: 1
+  - id: 40
+    num: 15.9
+    sp: 1
+  - id: 41
+    num: 16.3
+    sp: 1
+  - id: 42
+    num: 16.7
+    sp: 1
+  - id: 43
+    num: 17.1
+    sp: 1
+  - id: 44
+    num: 17.5
+    sp: 1
+  - id: 45
+    num: 17.9
+    sp: 1
+  - id: 46
+    num: 18.3
+    sp: 1
+  - id: 47
+    num: 18.7
+    sp: 1
+  - id: 48
+    num: 19.1
+    sp: 1
+  - id: 49
+    num: 19.5
+    sp: 1
+  - id: 50
+    num: 19.9
+    sp: 1
+  - id: 51
+    num: 20.3
+    sp: 1
+  - id: 52
+    num: 20.7
+    sp: 1
+  - id: 53
+    num: 21.1
+    sp: 1
+  - id: 54
+    num: 21.5
+    sp: 1
+  - id: 55
+    num: 21.9
+    sp: 1
+  - id: 56
+    num: 22.3
+    sp: 1
+  - id: 57
+    num: 22.7
+    sp: 1
+  - id: 58
+    num: 23.1
+    sp: 1
+  - id: 59
+    num: 23.5
+    sp: 1
+  - id: 60
+    num: 23.9
+    sp: 1
+  - id: 61
+    num: 24.3
+    sp: 1
+  - id: 62
+    num: 24.7
+    sp: 1
+  - id: 63
+    num: 25.1
+    sp: 1
+  - id: 64
+    num: 25.5
+    sp: 1
+  - id: 65
+    num: 25.9
+    sp: 1
+  - id: 66
+    num: 26.3
+    sp: 1
+  - id: 67
+    num: 26.7
+    sp: 1
+  - id: 68
+    num: 27.1
+    sp: 1
+  - id: 69
+    num: 27.5
+    sp: 1
+  - id: 70
+    num: 27.9
+    sp: 1
+  - id: 71
+    num: 28.3
+    sp: 1
+  - id: 72
+    num: 28.7
+    sp: 1
+  - id: 73
+    num: 29.1
+    sp: 1
+  - id: 74
+    num: 29.5
+    sp: 1
+  - id: 75
+    num: 29.9
+    sp: 1
+  - id: 76
+    num: 30.3
+    sp: 1
+  - id: 77
+    num: 30.7
+    sp: 1
+  - id: 78
+    num: 31.1
+    sp: 1
+  - id: 79
+    num: 31.5
+    sp: 1
+  - id: 80
+    num: 31.9
+    sp: 1
+  - id: 81
+    num: 32.3
+    sp: 1
+  - id: 82
+    num: 32.7
+    sp: 1
+  - id: 83
+    num: 33.1
+    sp: 1
+  - id: 84
+    num: 33.5
+    sp: 1
+  - id: 85
+    num: 33.9
+    sp: 1
+  - id: 86
+    num: 34.3
+    sp: 1
+  - id: 87
+    num: 34.7
+    sp: 1
+  - id: 88
+    num: 35.1
+    sp: 1
+  - id: 89
+    num: 35.5
+    sp: 1
+  - id: 90
+    num: 35.9
+    sp: 1
+  - id: 91
+    num: 36.3
+    sp: 1
+  - id: 92
+    num: 36.7
+    sp: 1
+  - id: 93
+    num: 37.1
+    sp: 1
+  - id: 94
+    num: 37.5
+    sp: 1
+  - id: 95
+    num: 37.9
+    sp: 1
+  - id: 96
+    num: 38.3
+    sp: 1
+  - id: 97
+    num: 38.7
+    sp: 1
+  - id: 98
+    num: 39.1
+    sp: 1
+  - id: 99
+    num: 39.5
+    sp: 1
+  - id: 100
+    num: 39.9
+    sp: 1
+  - id: 101
+    num: 40.3
+    sp: 1
+  - id: 102
+    num: 40.7
+    sp: 1
+  - id: 103
+    num: 41.1
+    sp: 1
+  - id: 104
+    num: 41.5
+    sp: 1
+  - id: 105
+    num: 41.9
+    sp: 1
+  - id: 106
+    num: 42.3
+    sp: 1
+  - id: 107
+    num: 42.7
+    sp: 1
+  - id: 108
+    num: 43.1
+    sp: 1
+  - id: 109
+    num: 43.5
+    sp: 1
+  - id: 110
+    num: 43.9
+    sp: 1
+  - id: 111
+    num: 44.3
+    sp: 1
+  - id: 112
+    num: 44.7
+    sp: 1
+  - id: 113
+    num: 45.1
+    sp: 1
+  - id: 114
+    num: 45.5
+    sp: 1
+  - id: 115
+    num: 45.9
+    sp: 1
+  - id: 116
+    num: 46.3
+    sp: 1
+  - id: 117
+    num: 46.7
+    sp: 1
+  - id: 118
+    num: 47.1
+    sp: 1
+  - id: 119
+    num: 47.5
+    sp: 1
+  - id: 120
+    num: 47.9
+    sp: 1
+  - id: 121
+    num: 48.3
+    sp: 1
+  - id: 122
+    num: 48.7
+    sp: 1
+  - id: 123
+    num: 49.1
+    sp: 1
+  - id: 124
+    num: 49.5
+    sp: 1
+  - id: 125
+    num: 49.9
+    sp: 1
+  - id: 126
+    num: 50.3
+    sp: 1
+  - id: 127
+    num: 50.7
+    sp: 1
+  - id: 128
+    num: 51.1
+    sp: 1
+  - id: 129
+    num: 51.5
+    sp: 1
+  - id: 130
+    num: 51.9
+    sp: 1
+  - id: 131
+    num: 52.3
+    sp: 1
+  - id: 132
+    num: 52.7
+    sp: 1
+  - id: 133
+    num: 53.1
+    sp: 1
+  - id: 134
+    num: 53.5
+    sp: 1
+  - id: 135
+    num: 53.9
+    sp: 1
+  - id: 136
+    num: 54.3
+    sp: 1
+  - id: 137
+    num: 54.7
+    sp: 1
+  - id: 138
+    num: 55.1
+    sp: 1
+  - id: 139
+    num: 55.5
+    sp: 1
+  - id: 140
+    num: 55.9
+    sp: 1
+  - id: 141
+    num: 56.3
+    sp: 1
+  - id: 142
+    num: 56.7
+    sp: 1
+  - id: 143
+    num: 57.1
+    sp: 1
+  - id: 144
+    num: 57.5
+    sp: 1
+  - id: 145
+    num: 57.9
+    sp: 1
+  - id: 146
+    num: 58.3
+    sp: 1
+  - id: 147
+    num: 58.7
+    sp: 1
+  - id: 148
+    num: 59.1
+    sp: 1
+  - id: 149
+    num: 59.5
+    sp: 1
+  - id: 150
+    num: 59.9
+    sp: 1
+  - id: 151
+    num: 60.3
+    sp: 1
+  - id: 152
+    num: 60.7
+    sp: 1
+  - id: 153
+    num: 61.1
+    sp: 1
+  - id: 154
+    num: 61.5
+    sp: 1
+  - id: 155
+    num: 61.9
+    sp: 1
+  - id: 156
+    num: 62.3
+    sp: 1
+  - id: 157
+    num: 62.7
+    sp: 1
+  - id: 158
+    num: 63.1
+    sp: 1
+  - id: 159
+    num: 63.5
+    sp: 1
+  - id: 160
+    num: 63.9
+    sp: 1
+  - id: 161
+    num: 64.3
+    sp: 1
+  - id: 162
+    num: 64.7
+    sp: 1
+  - id: 163
+    num: 65.1
+    sp: 1
+  - id: 164
+    num: 65.5
+    sp: 1
+  - id: 165
+    num: 65.9
+    sp: 1
+  - id: 166
+    num: 66.3
+    sp: 1
+  - id: 167
+    num: 66.7
+    sp: 1
+  - id: 168
+    num: 67.1
+    sp: 1
+  - id: 169
+    num: 67.5
+    sp: 1
+  - id: 170
+    num: 67.9
+    sp: 1
+  - id: 171
+    num: 68.3
+    sp: 1
+  - id: 172
+    num: 68.7
+    sp: 1
+  - id: 173
+    num: 69.1
+    sp: 1
+  - id: 174
+    num: 69.5
+    sp: 1
+  - id: 175
+    num: 69.9
+    sp: 1
+  - id: 176
+    num: 70.3
+    sp: 1
+  - id: 177
+    num: 70.7
+    sp: 1
+  - id: 178
+    num: 71.1
+    sp: 1
+  - id: 179
+    num: 71.5
+    sp: 1
+  - id: 180
+    num: 71.9
+    sp: 1
+  - id: 181
+    num: 72.3
+    sp: 1
+  - id: 182
+    num: 72.7
+    sp: 1
+  - id: 183
+    num: 73.1
+    sp: 1
+  - id: 184
+    num: 73.5
+    sp: 1
+  - id: 185
+    num: 73.9
+    sp: 1
+  - id: 186
+    num: 74.3
+    sp: 1
+  - id: 187
+    num: 74.7
+    sp: 1
+  - id: 188
+    num: 75.1
+    sp: 1
+  - id: 189
+    num: 75.5
+    sp: 1
+  - id: 190
+    num: 75.9
+    sp: 1
+  - id: 191
+    num: 76.3
+    sp: 1
+  - id: 192
+    num: 76.7
+    sp: 1
+  - id: 193
+    num: 77.1
+    sp: 1
+  - id: 194
+    num: 77.5
+    sp: 1
+  - id: 195
+    num: 77.9
+    sp: 1
+  - id: 196
+    num: 78.3
+    sp: 1
+  - id: 197
+    num: 78.7
+    sp: 1
+  - id: 198
+    num: 79.1
+    sp: 1
+  - id: 199
+    num: 79.5
+    sp: 1
+  - id: 200
+    num: 79.9
+    sp: 1
+  - id: 201
+    num: 80.3
+    sp: 1
+  - id: 202
+    num: 80.7
+    sp: 1
+  - id: 203
+    num: 81.1
+    sp: 1
+  - id: 204
+    num: 81.5
+    sp: 1
+  - id: 205
+    num: 81.9
+    sp: 1
+  - id: 206
+    num: 82.3
+    sp: 1
+  - id: 207
+    num: 82.7
+    sp: 1
+  - id: 208
+    num: 83.1
+    sp: 1
+  - id: 209
+    num: 83.5
+    sp: 1
+  - id: 210
+    num: 83.9
+    sp: 1
+  - id: 211
+    num: 84.3
+    sp: 1
+  - id: 212
+    num: 84.7
+    sp: 1
+  - id: 213
+    num: 85.1
+    sp: 1
+  - id: 214
+    num: 85.5
+    sp: 1
+  - id: 215
+    num: 85.9
+    sp: 1
+  - id: 216
+    num: 86.3
+    sp: 1
+  - id: 217
+    num: 86.7
+    sp: 1
+  - id: 218
+    num: 87.1
+    sp: 1
+  - id: 219
+    num: 87.5
+    sp: 1
+  - id: 220
+    num: 87.9
+    sp: 1
+  - id: 221
+    num: 88.3
+    sp: 1
+  - id: 222
+    num: 88.7
+    sp: 1
+  - id: 223
+    num: 89.1
+    sp: 1
+  - id: 224
+    num: 89.5
+    sp: 1
+  - id: 225
+    num: 89.9
+    sp: 1
+  - id: 226
+    num: 90.3
+    sp: 1
+  - id: 227
+    num: 90.7
+    sp: 1
+  - id: 228
+    num: 91.1
+    sp: 1
+  - id: 229
+    num: 91.5
+    sp: 1
+  - id: 230
+    num: 91.9
+    sp: 1
+  - id: 231
+    num: 92.3
+    sp: 1
+  - id: 232
+    num: 92.7
+    sp: 1
+  - id: 233
+    num: 93.1
+    sp: 1
+  - id: 234
+    num: 93.5
+    sp: 1
+  - id: 235
+    num: 93.9
+    sp: 1
+  - id: 236
+    num: 94.3
+    sp: 1
+  - id: 237
+    num: 94.7
+    sp: 1
+  - id: 238
+    num: 95.1
+    sp: 1
+  - id: 239
+    num: 95.5
+    sp: 1
+  - id: 240
+    num: 95.9
+    sp: 1
+  - id: 241
+    num: 96.3
+    sp: 1
+  - id: 242
+    num: 96.7
+    sp: 1
+  - id: 243
+    num: 97.1
+    sp: 1
+  - id: 244
+    num: 97.5
+    sp: 1
+  - id: 245
+    num: 97.9
+    sp: 1
+  - id: 246
+    num: 98.3
+    sp: 1
+  - id: 247
+    num: 98.7
+    sp: 1
+  - id: 248
+    num: 99.1
+    sp: 1
+  - id: 249
+    num: 99.5
+    sp: 1
+  - id: 250
+    num: 99.9
+    sp: 1
+  - id: 251
+    num: 100.3
+    sp: 1
+  - id: 252
+    num: 100.7
+    sp: 1
+  - id: 253
+    num: 101.1
+    sp: 1
+  - id: 254
+    num: 101.5
+    sp: 1
+  - id: 255
+    num: 101.9
+    sp: 1
+  - id: 256
+    num: 102.3
+    sp: 1
+  - id: 257
+    num: 102.7
+    sp: 1
+  - id: 258
+    num: 103.1
+    sp: 1
+  - id: 259
+    num: 103.5
+    sp: 1
+  - id: 260
+    num: 103.9
+    sp: 1
+  - id: 261
+    num: 104.3
+    sp: 1
+  - id: 262
+    num: 104.7
+    sp: 1
+  - id: 263
+    num: 105.1
+    sp: 1
+  - id: 264
+    num: 105.5
+    sp: 1
+  - id: 265
+    num: 105.9
+    sp: 1
+  - id: 266
+    num: 106.3
+    sp: 1
+  - id: 267
+    num: 106.7
+    sp: 1
+  - id: 268
+    num: 107.1
+    sp: 1
+  - id: 269
+    num: 107.5
+    sp: 1
+  - id: 270
+    num: 107.9
+    sp: 1
+  - id: 271
+    num: 108.3
+    sp: 1
+  - id: 272
+    num: 108.7
+    sp: 1
+  - id: 273
+    num: 109.1
+    sp: 1
+  - id: 274
+    num: 109.5
+    sp: 1
+  - id: 275
+    num: 109.9
+    sp: 1
+  - id: 276
+    num: 110.3
+    sp: 1
+  - id: 277
+    num: 110.7
+    sp: 1
+  - id: 278
+    num: 111.1
+    sp: 1
+  - id: 279
+    num: 111.5
+    sp: 1
+  - id: 280
+    num: 111.9
+    sp: 1
+  - id: 281
+    num: 112.3
+    sp: 1
+  - id: 282
+    num: 112.7
+    sp: 1
+  - id: 283
+    num: 113.1
+    sp: 1
+  - id: 284
+    num: 113.5
+    sp: 1
+  - id: 285
+    num: 113.9
+    sp: 1
+  - id: 286
+    num: 114.3
+    sp: 1
+  - id: 287
+    num: 114.7
+    sp: 1
+  - id: 288
+    num: 115.1
+    sp: 1
+  - id: 289
+    num: 115.5
+    sp: 1
+  - id: 290
+    num: 115.9
+    sp: 1
+  - id: 291
+    num: 116.3
+    sp: 1
+  - id: 292
+    num: 116.7
+    sp: 1
+  - id: 293
+    num: 117.1
+    sp: 1
+  - id: 294
+    num: 117.5
+    sp: 1
+  - id: 295
+    num: 117.9
+    sp: 1
+  - id: 296
+    num: 118.3
+    sp: 1
+  - id: 297
+    num: 118.7
+    sp: 1
+  - id: 298
+    num: 119.1
+    sp: 1
+  - id: 299
+    num: 119.5
+    sp: 1
+  - id: 300
+    num: 119.9
+    sp: 1
+  - id: 301
+    num: 120.3
+    sp: 1
+  - id: 302
+    num: 120.7
+    sp: 1
+  - id: 303
+    num: 121.1
+    sp: 1
+  - id: 304
+    num: 121.5
+    sp: 1
+  - id: 305
+    num: 121.9
+    sp: 1
+  - id: 306
+    num: 122.3
+    sp: 1
+  - id: 307
+    num: 122.7
+    sp: 1
+  - id: 308
+    num: 123.1
+    sp: 1
+  - id: 309
+    num: 123.5
+    sp: 1
+  - id: 310
+    num: 123.9
+    sp: 1
+  - id: 311
+    num: 124.3
+    sp: 1
+  - id: 312
+    num: 124.7
+    sp: 1
+  - id: 313
+    num: 125.1
+    sp: 1
+  - id: 314
+    num: 125.5
+    sp: 1
+  - id: 315
+    num: 125.9
+    sp: 1
+  - id: 316
+    num: 126.3
+    sp: 1
+  - id: 317
+    num: 126.7
+    sp: 1
+  - id: 318
+    num: 127.1
+    sp: 1
+  - id: 319
+    num: 127.5
+    sp: 1
+  - id: 320
+    num: 127.9
+    sp: 1
+  - id: 321
+    num: 128.3
+    sp: 1
+  - id: 322
+    num: 128.7
+    sp: 1
+  - id: 323
+    num: 129.1
+    sp: 1
+  - id: 324
+    num: 129.5
+    sp: 1
+  - id: 325
+    num: 129.9
+    sp: 1
+  - id: 326
+    num: 130.3
+    sp: 1
+  - id: 327
+    num: 130.7
+    sp: 1
+  - id: 328
+    num: 131.1
+    sp: 1
+  - id: 329
+    num: 131.5
+    sp: 1
+  - id: 330
+    num: 131.9
+    sp: 1
+  - id: 331
+    num: 132.3
+    sp: 1
+  - id: 332
+    num: 132.7
+    sp: 1
+  - id: 333
+    num: 133.1
+    sp: 1
+  - id: 334
+    num: 133.5
+    sp: 1
+  - id: 335
+    num: 133.9
+    sp: 1
+  - id: 336
+    num: 134.3
+    sp: 1
+  - id: 337
+    num: 134.7
+    sp: 1
+  - id: 338
+    num: 135.1
+    sp: 1
+  - id: 339
+    num: 135.5
+    sp: 1
+  - id: 340
+    num: 135.9
+    sp: 1
+  - id: 341
+    num: 136.3
+    sp: 1
+  - id: 342
+    num: 136.7
+    sp: 1
+  - id: 343
+    num: 137.1
+    sp: 1
+  - id: 344
+    num: 137.5
+    sp: 1
+  - id: 345
+    num: 137.9
+    sp: 1
+  - id: 346
+    num: 138.3
+    sp: 1
+  - id: 347
+    num: 138.7
+    sp: 1
+  - id: 348
+    num: 139.1
+    sp: 1
+  - id: 349
+    num: 139.5
+    sp: 1
+  - id: 350
+    num: 139.9
+    sp: 1
+  - id: 351
+    num: 140.3
+    sp: 1
+  - id: 352
+    num: 140.7
+    sp: 1
+  - id: 353
+    num: 141.1
+    sp: 1
+  - id: 354
+    num: 141.5
+    sp: 1
+  - id: 355
+    num: 141.9
+    sp: 1
+  - id: 356
+    num: 142.3
+    sp: 1
+  - id: 357
+    num: 142.7
+    sp: 1
+  - id: 358
+    num: 143.1
+    sp: 1
+  - id: 359
+    num: 143.5
+    sp: 1
+  - id: 360
+    num: 143.9
+    sp: 1
+  - id: 361
+    num: 144.3
+    sp: 1
+  - id: 362
+    num: 144.7
+    sp: 1
+  - id: 363
+    num: 145.1
+    sp: 1
+  - id: 364
+    num: 145.5
+    sp: 1
+  - id: 365
+    num: 145.9
+    sp: 1
+  - id: 366
+    num: 146.3
+    sp: 1
+  - id: 367
+    num: 146.7
+    sp: 1
+  - id: 368
+    num: 147.1
+    sp: 1
+  - id: 369
+    num: 147.5
+    sp: 1
+  - id: 370
+    num: 147.9
+    sp: 1
+  - id: 371
+    num: 148.3
+    sp: 1
+  - id: 372
+    num: 148.7
+    sp: 1
+  - id: 373
+    num: 149.1
+    sp: 1
+  - id: 374
+    num: 149.5
+    sp: 1
+  - id: 375
+    num: 149.9
+    sp: 1
+  - id: 376
+    num: 150.3
+    sp: 1
+  - id: 377
+    num: 150.7
+    sp: 1
+  - id: 378
+    num: 151.1
+    sp: 1
+  - id: 379
+    num: 151.5
+    sp: 1
+  - id: 380
+    num: 151.9
+    sp: 1
+  - id: 381
+    num: 152.3
+    sp: 1
+  - id: 382
+    num: 152.7
+    sp: 1
+  - id: 383
+    num: 153.1
+    sp: 1
+  - id: 384
+    num: 153.5
+    sp: 1
+  - id: 385
+    num: 153.9
+    sp: 1
+  - id: 386
+    num: 154.3
+    sp: 1
+  - id: 387
+    num: 154.7
+    sp: 1
+  - id: 388
+    num: 155.1
+    sp: 1
+  - id: 389
+    num: 155.5
+    sp: 1
+  - id: 390
+    num: 155.9
+    sp: 1
+  - id: 391
+    num: 156.3
+    sp: 1
+  - id: 392
+    num: 156.7
+    sp: 1
+  - id: 393
+    num: 157.1
+    sp: 1
+  - id: 394
+    num: 157.5
+    sp: 1
+  - id: 395
+    num: 157.9
+    sp: 1
+  - id: 396
+    num: 158.3
+    sp: 1
+  - id: 397
+    num: 158.7
+    sp: 1
+  - id: 398
+    num: 159.1
+    sp: 1
+  - id: 399
+    num: 159.5
+    sp: 1
+  - id: 400
+    num: 159.9
+    sp: 1
+  - id: 401
+    num: 160.3
+    sp: 1
+  - id: 402
+    num: 160.7
+    sp: 1
+  - id: 403
+    num: 161.1
+    sp: 1
+  - id: 404
+    num: 161.5
+    sp: 1
+  - id: 405
+    num: 161.9
+    sp: 1
+  - id: 406
+    num: 162.3
+    sp: 1
+  - id: 407
+    num: 162.7
+    sp: 1
+  - id: 408
+    num: 163.1
+    sp: 1
+  - id: 409
+    num: 163.5
+    sp: 1
+  - id: 410
+    num: 163.9
+    sp: 1
+  - id: 411
+    num: 164.3
+    sp: 1
+  - id: 412
+    num: 164.7
+    sp: 1
+  - id: 413
+    num: 165.1
+    sp: 1
+  - id: 414
+    num: 165.5
+    sp: 1
+  - id: 415
+    num: 165.9
+    sp: 1
+  - id: 416
+    num: 166.3
+    sp: 1
+  - id: 417
+    num: 166.7
+    sp: 1
+  - id: 418
+    num: 167.1
+    sp: 1
+  - id: 419
+    num: 167.5
+    sp: 1
+  - id: 420
+    num: 167.9
+    sp: 1
+  - id: 421
+    num: 168.3
+    sp: 1
+  - id: 422
+    num: 168.7
+    sp: 1
+  - id: 423
+    num: 169.1
+    sp: 1
+  - id: 424
+    num: 169.5
+    sp: 1
+  - id: 425
+    num: 169.9
+    sp: 1
+  - id: 426
+    num: 170.3
+    sp: 1
+  - id: 427
+    num: 170.7
+    sp: 1
+  - id: 428
+    num: 171.1
+    sp: 1
+  - id: 429
+    num: 171.5
+    sp: 1
+  - id: 430
+    num: 171.9
+    sp: 1
+  - id: 431
+    num: 172.3
+    sp: 1
+  - id: 432
+    num: 172.7
+    sp: 1
+  - id: 433
+    num: 173.1
+    sp: 1
+  - id: 434
+    num: 173.5
+    sp: 1
+  - id: 435
+    num: 173.9
+    sp: 1
+  - id: 436
+    num: 174.3
+    sp: 1
+  - id: 437
+    num: 174.7
+    sp: 1
+  - id: 438
+    num: 175.1
+    sp: 1
+  - id: 439
+    num: 175.5
+    sp: 1
+  - id: 440
+    num: 175.9
+    sp: 1
+  - id: 441
+    num: 176.3
+    sp: 1
+  - id: 442
+    num: 176.7
+    sp: 1
+  - id: 443
+    num: 177.1
+    sp: 1
+  - id: 444
+    num: 177.5
+    sp: 1
+  - id: 445
+    num: 177.9
+    sp: 1
+  - id: 446
+    num: 178.3
+    sp: 1
+  - id: 447
+    num: 178.7
+    sp: 1
+  - id: 448
+    num: 179.1
+    sp: 1
+  - id: 449
+    num: 179.5
+    sp: 1
+  - id: 450
+    num: 179.9
+    sp: 1
+  - id: 451
+    num: 180.3
+    sp: 1
+  - id: 452
+    num: 180.7
+    sp: 1
+  - id: 453
+    num: 181.1
+    sp: 1
+  - id: 454
+    num: 181.5
+    sp: 1
+  - id: 455
+    num: 181.9
+    sp: 1
+  - id: 456
+    num: 182.3
+    sp: 1
+  - id: 457
+    num: 182.7
+    sp: 1
+  - id: 458
+    num: 183.1
+    sp: 1
+  - id: 459
+    num: 183.5
+    sp: 1
+  - id: 460
+    num: 183.9
+    sp: 1
+  - id: 461
+    num: 184.3
+    sp: 1
+  - id: 462
+    num: 184.7
+    sp: 1
+  - id: 463
+    num: 185.1
+    sp: 1
+  - id: 464
+    num: 185.5
+    sp: 1
+  - id: 465
+    num: 185.9
+    sp: 1
+  - id: 466
+    num: 186.3
+    sp: 1
+  - id: 467
+    num: 186.7
+    sp: 1
+  - id: 468
+    num: 187.1
+    sp: 1
+  - id: 469
+    num: 187.5
+    sp: 1
+  - id: 470
+    num: 187.9
+    sp: 1
+  - id: 471
+    num: 188.3
+    sp: 1
+  - id: 472
+    num: 188.7
+    sp: 1
+  - id: 473
+    num: 189.1
+    sp: 1
+  - id: 474
+    num: 189.5
+    sp: 1
+  - id: 475
+    num: 189.9
+    sp: 1
+  - id: 476
+    num: 190.3
+    sp: 1
+  - id: 477
+    num: 190.7
+    sp: 1
+  - id: 478
+    num: 191.1
+    sp: 1
+  - id: 479
+    num: 191.5
+    sp: 1
+  - id: 480
+    num: 191.9
+    sp: 1
+  - id: 481
+    num: 192.3
+    sp: 1
+  - id: 482
+    num: 192.7
+    sp: 1
+  - id: 483
+    num: 193.1
+    sp: 1
+  - id: 484
+    num: 193.5
+    sp: 1
+  - id: 485
+    num: 193.9
+    sp: 1
+  - id: 486
+    num: 194.3
+    sp: 1
+  - id: 487
+    num: 194.7
+    sp: 1
+  - id: 488
+    num: 195.1
+    sp: 1
+  - id: 489
+    num: 195.5
+    sp: 1
+  - id: 490
+    num: 195.9
+    sp: 1
+  - id: 491
+    num: 196.3
+    sp: 1
+  - id: 492
+    num: 196.7
+    sp: 1
+  - id: 493
+    num: 197.1
+    sp: 1
+  - id: 494
+    num: 197.5
+    sp: 1
+  - id: 495
+    num: 197.9
+    sp: 1
+  - id: 496
+    num: 198.3
+    sp: 1
+  - id: 497
+    num: 198.7
+    sp: 1
+  - id: 498
+    num: 199.1
+    sp: 1
+  - id: 499
+    num: 199.5
+    sp: 1
+  - id: 500
+    num: 199.9
+    sp: 1
+  equips:
+  - id: 1
+    name: "\u77ED\u5251"
+    region: weapon
+    atk: 20
+    hp: 0
+    cri: 0.5
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Pumpkin
+    - Gold
+    num: 320000000a00000064000000
+    time: 5
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Sword
+    rune: SwordRune
+  - id: 2
+    name: "\u751F\u547D\u7B26\u6587"
+    region: rune
+    atk: 10
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Stone
+    - Apple
+    - Gold
+    num: 320000000a00000064000000
+    time: 5
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 3
+    name: "\u5E03\u5E3D"
+    region: head
+    atk: 0
+    hp: 20
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Apple
+    - Gold
+    num: 320000000a00000064000000
+    time: 5
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 4
+    name: "\u5E03\u670D"
+    region: chest
+    atk: 0
+    hp: 40
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Pumpkin
+    - Gold
+    num: 320000000a00000064000000
+    time: 5
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 5
+    name: "\u5E03\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 30
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Stone
+    - Pumpkin
+    - Gold
+    num: 320000000a00000064000000
+    time: 5
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 6
+    name: "\u6728\u76FE"
+    region: shield
+    atk: 0
+    hp: 50
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Apple
+    - Gold
+    num: 320000000a00000064000000
+    time: 5
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 7
+    name: "\u77F3\u5200"
+    region: weapon
+    atk: 60
+    hp: 0
+    cri: 1
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Apple
+    - Brick
+    - Gold
+    num: 640000001e000000c8000000
+    time: 300
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Blade
+    rune: BladeRune
+  - id: 8
+    name: "\u6C34\u7B26\u6587"
+    region: rune
+    atk: 30
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Pumpkin
+    - Plank
+    - Gold
+    num: 640000001e000000c8000000
+    time: 300
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 9
+    name: "\u76AE\u5E3D"
+    region: head
+    atk: 0
+    hp: 60
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Brick
+    - Gold
+    num: 640000001e000000c8000000
+    time: 300
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 10
+    name: "\u76AE\u7532"
+    region: chest
+    atk: 0
+    hp: 120
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Stone
+    - Plank
+    - Gold
+    num: 640000001e000000c8000000
+    time: 300
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 11
+    name: "\u76D7\u8D3C\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 90
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Apple
+    - Brick
+    - Gold
+    num: 640000001e000000c8000000
+    time: 300
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 12
+    name: "\u76AE\u76FE"
+    region: shield
+    atk: 0
+    hp: 150
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Pumpkin
+    - Plank
+    - Gold
+    num: 640000001e000000c8000000
+    time: 300
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 13
+    name: "\u94C1\u5251"
+    region: weapon
+    atk: 200
+    hp: 0
+    cri: 2
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Iron
+    - Bread
+    - Gold
+    num: 640000001e00000090010000
+    time: 3600
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Sword
+    rune: SwordRune
+  - id: 14
+    name: "\u571F\u7B26\u6587"
+    region: rune
+    atk: 100
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Pumpkin
+    - Nail
+    - Gold
+    num: 640000001e00000090010000
+    time: 3600
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 15
+    name: "\u94C1\u76D4"
+    region: head
+    atk: 0
+    hp: 200
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Wool
+    - Gold
+    num: 640000001e00000090010000
+    time: 3600
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 16
+    name: "\u94C1\u7532"
+    region: chest
+    atk: 0
+    hp: 400
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Stone
+    - Bread
+    - Gold
+    num: 640000001e00000090010000
+    time: 3600
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 17
+    name: "\u58EB\u5175\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 300
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Grain
+    - Nail
+    - Gold
+    num: 640000001e00000090010000
+    time: 3600
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 18
+    name: "\u94C1\u76FE"
+    region: shield
+    atk: 0
+    hp: 500
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Iron
+    - Brick
+    - Gold
+    num: 640000001e00000090010000
+    time: 3600
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 19
+    name: "\u767D\u864E\u65A7"
+    region: weapon
+    atk: 600
+    hp: 0
+    cri: 3
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Cactus
+    - Wool
+    - Gold
+    num: c80000001400000020030000
+    time: 36000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Axe
+    rune: AxeRune
+  - id: 20
+    name: "\u706B\u7B26\u6587"
+    region: rune
+    atk: 300
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 1
+    reg: 0
+    assets:
+    - Cactus
+    - Plank
+    - Gold
+    num: c80000001400000020030000
+    time: 36000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 21
+    name: "\u706B\u7130\u76D4"
+    region: head
+    atk: 0
+    hp: 600
+    cri: 0
+    decri: 1
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Stone
+    - Brick
+    - Gold
+    num: c80000001400000020030000
+    time: 36000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 22
+    name: "\u706B\u7130\u7532"
+    region: chest
+    atk: 0
+    hp: 1200
+    cri: 0
+    decri: 0
+    dodge: 1
+    hit: 0
+    reg: 0
+    assets:
+    - Grain
+    - Bread
+    - Gold
+    num: c80000001400000020030000
+    time: 36000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 23
+    name: "\u9B54\u6CD5\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 900
+    cri: 0
+    decri: 0
+    dodge: 1
+    hit: 0
+    reg: 0
+    assets:
+    - Cactus
+    - Nail
+    - Gold
+    num: c80000001400000020030000
+    time: 36000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 24
+    name: "\u706B\u7130\u76FE"
+    region: shield
+    atk: 0
+    hp: 1500
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 1
+    assets:
+    - Cactus
+    - Potion
+    - Gold
+    num: c80000001400000020030000
+    time: 36000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 25
+    name: "\u98CE\u5251"
+    region: weapon
+    atk: 1200
+    hp: 0
+    cri: 4
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - WinterWood
+    - Fish
+    - Gold
+    num: 900100002800000040060000
+    time: 72000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Sword
+    rune: SwordRune
+  - id: 26
+    name: "\u98CE\u7B26\u6587"
+    region: rune
+    atk: 600
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 2
+    reg: 0
+    assets:
+    - WinterWood
+    - Cone
+    - Gold
+    num: 900100002800000040060000
+    time: 72000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 27
+    name: "\u98CE\u76D4"
+    region: head
+    atk: 0
+    hp: 1200
+    cri: 0
+    decri: 2
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Carrot
+    - Wool
+    - Gold
+    num: 900100002800000040060000
+    time: 72000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 28
+    name: "\u98CE\u7532"
+    region: chest
+    atk: 0
+    hp: 2400
+    cri: 0
+    decri: 0
+    dodge: 2
+    hit: 0
+    reg: 0
+    assets:
+    - Carrot
+    - Potion
+    - Gold
+    num: 900100002800000040060000
+    time: 72000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 29
+    name: "\u5E7B\u5F71\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 1800
+    cri: 0
+    decri: 0
+    dodge: 2
+    hit: 0
+    reg: 0
+    assets:
+    - WinterWood
+    - Fish
+    - Gold
+    num: 900100002800000040060000
+    time: 72000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 30
+    name: "\u98CE\u76FE"
+    region: shield
+    atk: 0
+    hp: 3000
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 2
+    assets:
+    - Cactus
+    - Bread
+    - Gold
+    num: 900100002800000040060000
+    time: 72000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 31
+    name: "\u9ED1\u9F99\u5251"
+    region: weapon
+    atk: 1800
+    hp: 0
+    cri: 5
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Potion
+    - Carrot
+    - DeadWood
+    num: 640000005e01000088130000
+    time: 144000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Sword
+    rune: SwordRune
+  - id: 32
+    name: "\u6697\u7B26\u6587"
+    region: rune
+    atk: 900
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 3
+    reg: 0
+    assets:
+    - Brick
+    - Cone
+    - DeadWoodPlank
+    num: c80000009600000064000000
+    time: 144000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 33
+    name: "\u9ED1\u9F99\u76D4"
+    region: head
+    atk: 0
+    hp: 1800
+    cri: 0
+    decri: 3
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Wool
+    - Potion
+    - DeadWoodPlank
+    num: 64000000fa000000fa000000
+    time: 144000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 34
+    name: "\u9ED1\u9F99\u7532"
+    region: chest
+    atk: 0
+    hp: 3600
+    cri: 0
+    decri: 0
+    dodge: 3
+    hit: 0
+    reg: 0
+    assets:
+    - Pumpkin
+    - Carrot
+    - Cone
+    num: e8030000f4010000c8000000
+    time: 144000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 35
+    name: "\u6697\u591C\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 2700
+    cri: 0
+    decri: 0
+    dodge: 3
+    hit: 0
+    reg: 0
+    assets:
+    - Potion
+    - DeadWoodPlank
+    - FishSoup
+    num: 2c0100009600000032000000
+    time: 144000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 36
+    name: "\u9ED1\u9F99\u76FE"
+    region: shield
+    atk: 0
+    hp: 4500
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 3
+    assets:
+    - Brick
+    - Bread
+    - FishSoup
+    num: 2c0100009600000064000000
+    time: 144000
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 37
+    name: "\u9752\u9F99\u5200"
+    region: weapon
+    atk: 2400
+    hp: 0
+    cri: 6
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Cone
+    - FishSoup
+    - Egg
+    num: fa0000006400000019000000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Blade
+    rune: BladeRune
+  - id: 38
+    name: "\u51B0\u7B26\u6587"
+    region: rune
+    atk: 1200
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 4
+    reg: 0
+    assets:
+    - Nail
+    - DeadWoodPlank
+    - Egg
+    num: fa000000c800000064000000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 39
+    name: "\u9752\u9F99\u76D4"
+    region: head
+    atk: 0
+    hp: 2400
+    cri: 0
+    decri: 4
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Stone
+    - Potion
+    - Egg
+    num: c40900005e010000fa000000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 40
+    name: "\u9752\u9F99\u7532"
+    region: chest
+    atk: 0
+    hp: 4800
+    cri: 0
+    decri: 0
+    dodge: 4
+    hit: 0
+    reg: 0
+    assets:
+    - Wood
+    - Nail
+    - FishSoup
+    num: ac0d00005e010000c8000000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 41
+    name: "\u9752\u9F99\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 3600
+    cri: 0
+    decri: 0
+    dodge: 4
+    hit: 0
+    reg: 0
+    assets:
+    - Plank
+    - Iron
+    - Cone
+    num: 90010000dc05000090010000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 42
+    name: "\u9752\u9F99\u76FE"
+    region: shield
+    atk: 0
+    hp: 6000
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 4
+    assets:
+    - Wool
+    - Carrot
+    - Egg
+    num: 2c0100008a0200002c010000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  - id: 43
+    name: "\u8584\u6708\u65A7"
+    region: weapon
+    atk: 3600
+    hp: 0
+    cri: 7
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - Bread
+    - Potion
+    - SakuraPlank
+    num: dc050000ca0800008a020000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Axe
+    rune: AxeRune
+  - id: 44
+    name: "\u661F\u7B26\u6587"
+    region: rune
+    atk: 1800
+    hp: 0
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 5
+    reg: 0
+    assets:
+    - FishSoup
+    - Sakura
+    - Burger
+    num: b0040000e8030000f4010000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Talisman
+    rune: TalismanRune
+  - id: 45
+    name: "\u661F\u8FB0\u76D4"
+    region: head
+    atk: 0
+    hp: 3600
+    cri: 0
+    decri: 5
+    dodge: 0
+    hit: 0
+    reg: 0
+    assets:
+    - BambooTissue
+    - Burger
+    - BirdDish
+    num: e2040000ee0200005e010000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Helmet
+    rune: HelmetRune
+  - id: 46
+    name: "\u661F\u8FB0\u7532"
+    region: chest
+    atk: 0
+    hp: 7200
+    cri: 0
+    decri: 0
+    dodge: 5
+    hit: 0
+    reg: 0
+    assets:
+    - SakuraPlank
+    - BirdDish
+    - Pearl
+    num: b60300008a02000019000000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Armor
+    rune: ArmorRune
+  - id: 47
+    name: "\u661F\u8FB0\u62AB\u98CE"
+    region: cloak
+    atk: 0
+    hp: 5400
+    cri: 0
+    decri: 0
+    dodge: 5
+    hit: 0
+    reg: 0
+    assets:
+    - Nail
+    - Burger
+    - Lotus
+    num: c4090000e803000096000000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Cloak
+    rune: CloakRune
+  - id: 48
+    name: "\u661F\u8FB0\u76FE"
+    region: shield
+    atk: 0
+    hp: 9000
+    cri: 0
+    decri: 0
+    dodge: 0
+    hit: 0
+    reg: 5
+    assets:
+    - SakuraPlank
+    - BirdDish
+    - Lotus
+    num: e2040000b6030000f4010000
+    time: 0
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    type: Shield
+    rune: ShieldRune
+  hallUpgrades:
+  - id: 1
+    name: SawmillLevel
+    priceArr: 14000000b4000000180100009001000008020000bc020000840300004c04000014050000dc050000d0070000c4090000b80b0000ac0d0000a00f000070170000401f000010270000e02e0000b0360000204e0000a861000030750000b8880000409c0000c8af000050c30000
+    baseVal: 30
+    upgrade: 4
+    chineseName: "\u952F\u6728\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 8
+  - id: 2
+    name: WorkerBagLevel
+    priceArr: c800000040010000e0010000bc020000e803000078050000d0070000540b00006810000038180000f0230000bc340000844e000068740000d4ad000060030100e4830100a0860100
+    baseVal: 25
+    upgrade: 15
+    chineseName: "\u5DE5\u4EBA\u80CC\u5305\u5BB9\u91CF"
+    unlock: 14
+  - id: 3
+    name: StorageLevel
+    priceArr: 6e000000a0000000dc0000002c0100007c010000e00100006202000002030000c0030000b0040000dc0500006c070000600900001c0c00003c0f000088130000001900006c200000cc290000e835000088450000d8590000687400006496000050c3000020fd000084480100a0860100
+    baseVal: 50
+    upgrade: 15
+    chineseName: "\u73A9\u5BB6\u50A8\u7269\u4ED3\u5BB9\u91CF"
+    unlock: 14
+  - id: 4
+    name: WorkerAbilityLevel
+    priceArr: 6400000096000000dc00000036010000a401000030020000ee020000e80300001405000008070000c4090000480d0000f811000000190000c42200000c300000cc4200005c5d000014820000a4b5000084fd00004c620100a0860100
+    baseVal: 1
+    upgrade: 0.25
+    chineseName: "\u73A9\u5BB6\u91C7\u96C6\u7684\u80FD\u529B"
+    unlock: 17
+  - id: 5
+    name: BagLevel
+    priceArr: 96000000fa0000009001000026020000ee020000b6030000b0040000dc050000d0070000c4090000e40c0000a00f00008813000070170000581b0000983a0000
+    baseVal: 500
+    upgrade: 100
+    chineseName: "\u73A9\u5BB6\u80CC\u5305\u5BB9\u91CF"
+    unlock: 17
+  - id: 6
+    name: AxeLevel
+    priceArr: aa0000000e0100009a0100005802000070030000b0040000080700008c0a0000a00f000070170000c422000090330000f44c00003c73000044ac000050c30000
+    baseVal: 1
+    upgrade: 0.25
+    chineseName: "\u65A7\u5B50"
+    unlock: 10
+  - id: 7
+    name: PickAxeLevel
+    priceArr: aa0000000e0100009a0100005802000070030000b0040000080700008c0a0000a00f000070170000c422000090330000f44c00003c73000044ac000050c30000
+    baseVal: 1
+    upgrade: 0.25
+    chineseName: "\u9550\u5934"
+    unlock: 10
+  - id: 8
+    name: StoneMineLevel
+    priceArr: c8000000900100005802000020030000e8030000dc050000d0070000c4090000b80b0000ac0d0000a00f00008813000070170000581b0000401f000028230000f82a0000c8320000983a000068420000204e0000a861000030750000b8880000409c0000c8af000050c30000
+    baseVal: 20
+    upgrade: 4
+    chineseName: "\u91C7\u77F3\u573A\u7684\u751F\u4EA7\u529B"
+    unlock: 14
+  - id: 9
+    name: FishingRobLevel
+    priceArr: e60000009001000076020000b60300007805000034080000800c0000c01200004c1d0000b42d0000e047000048710000b0b3000050c30000
+    baseVal: 1
+    upgrade: 0.25
+    chineseName: "\u9C7C\u7AFF"
+    unlock: 35
+  - id: 10
+    name: WoodFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u6728\u677F\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 33
+  - id: 11
+    name: StoneFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u5236\u7816\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 44
+  - id: 12
+    name: BreadFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u9762\u5305\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 60
+  - id: 13
+    name: IronFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u70BC\u94C1\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 71
+  - id: 14
+    name: FishingHutLevel
+    priceArr: f4010000ee020000e8030000b0040000dc050000d0070000c4090000b80b0000ac0d0000a00f000070170000401f000010270000e02e0000983a0000204e0000a861000030750000b8880000409c0000c8af000050c30000
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u9493\u9C7C\u5C0F\u5C4B\u7684\u751F\u4EA7\u529B"
+    unlock: 53
+  - id: 15
+    name: IronMineLevel
+    priceArr: f4010000ee020000e8030000b0040000dc050000d0070000c4090000b80b0000ac0d0000a00f000070170000401f000010270000e02e0000b0360000803e000050460000204e0000f0550000c05d000090650000606d000030750000b8880000409c0000c8af000050c3000060ea000070110100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u94C1\u77FF\u573A\u7684\u751F\u4EA7\u529B"
+    unlock: 68
+  - id: 16
+    name: CactusFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u4ED9\u4EBA\u638C\u836F\u6C34\u5DE5\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 108
+  - id: 17
+    name: ConeFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u7403\u679C\u5DE5\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 121
+  - id: 18
+    name: SickleLevel
+    priceArr: e8030000dc050000d0070000c4090000b80b0000ac0d0000a00f00008813000070170000581b0000401f000010270000e02e0000b0360000803e000050460000204e0000a8610000
+    baseVal: 1
+    upgrade: 0.25
+    chineseName: "\u9570\u5200"
+    unlock: 57
+  - id: 19
+    name: DeadWoodFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u67AF\u6728\u5DE5\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 142
+  - id: 20
+    name: CookingPotLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u70F9\u996A\u9505\u7684\u751F\u4EA7\u529B"
+    unlock: 146
+  - id: 21
+    name: WeaverFactoryLevel
+    priceArr: f4010000e8030000dc050000d0070000c4090000b80b0000a00f00007c150000581b00003421000010270000c8320000803e0000384a0000f0550000a861000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100
+    baseVal: 10
+    upgrade: 2
+    chineseName: "\u7EBA\u7EC7\u5DE5\u5382\u7684\u751F\u4EA7\u529B"
+    unlock: 180
+  lighthouses:
+  - id: 1
+    name: fight
+    gem: 10
+  - id: 2
+    name: fight
+    gem: 15
+  - id: 3
+    name: fight
+    gem: 30
+  - id: 4
+    name: fight
+    gem: 50
+  - id: 5
+    name: fight
+    gem: 80
+  markets:
+  - id: 1
+    name: Wood
+    display: "\u6728\u5934"
+    unitPrice: 0.5
+    gemPrice: 0.025
+    task: 8
+    scene: main
+    num: 400
+    gem: 10
+  - id: 2
+    name: Stone
+    display: "\u77F3\u5934"
+    unitPrice: 1
+    gemPrice: 0.05
+    task: 12
+    scene: main
+    num: 400
+    gem: 20
+  - id: 3
+    name: Apple
+    display: "\u82F9\u679C"
+    unitPrice: 3
+    gemPrice: 0.15
+    task: 21
+    scene: main
+    num: 100
+    gem: 15
+  - id: 4
+    name: Pumpkin
+    display: "\u5357\u74DC"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 19
+    scene: main
+    num: 100
+    gem: 10
+  - id: 5
+    name: Grain
+    display: "\u8C37\u7269"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 58
+    scene: main
+    num: 200
+    gem: 20
+  - id: 6
+    name: Iron
+    display: "\u94C1\u77FF\u77F3"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 68
+    scene: main
+    num: 200
+    gem: 20
+  - id: 7
+    name: Cactus
+    display: "\u4ED9\u4EBA\u638C"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 106
+    scene: main
+    num: 300
+    gem: 30
+  - id: 8
+    name: WinterWood
+    display: "\u51AC\u6728"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 119
+    scene: main
+    num: 200
+    gem: 20
+  - id: 9
+    name: DeadWood
+    display: "\u67AF\u6728"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 140
+    scene: main
+    num: 200
+    gem: 20
+  - id: 10
+    name: Carrot
+    display: "\u80E1\u841D\u535C"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 115
+    scene: main
+    num: 200
+    gem: 20
+  - id: 11
+    name: Fish
+    display: "\u9C7C"
+    unitPrice: 3
+    gemPrice: 0.15
+    task: 36
+    scene: main
+    num: 100
+    gem: 15
+  - id: 12
+    name: Plank
+    display: "\u6728\u677F"
+    unitPrice: 4
+    gemPrice: 0.2
+    task: 33
+    scene: main
+    num: 50
+    gem: 10
+  - id: 13
+    name: Brick
+    display: "\u7816"
+    unitPrice: 6
+    gemPrice: 0.3
+    task: 44
+    scene: main
+    num: 50
+    gem: 15
+  - id: 14
+    name: Wool
+    display: "\u7F8A\u6BDB"
+    unitPrice: 24
+    gemPrice: 1.2
+    task: 50
+    scene: main
+    num: 50
+    gem: 60
+  - id: 15
+    name: Bread
+    display: "\u9762\u5305"
+    unitPrice: 18
+    gemPrice: 0.9
+    task: 60
+    scene: main
+    num: 50
+    gem: 45
+  - id: 16
+    name: Nail
+    display: "\u9489\u5B50"
+    unitPrice: 10
+    gemPrice: 0.5
+    task: 71
+    scene: main
+    num: 100
+    gem: 50
+  - id: 17
+    name: Potion
+    display: "\u4ED9\u4EBA\u638C\u836F\u6C34"
+    unitPrice: 9
+    gemPrice: 0.45
+    task: 108
+    scene: main
+    num: 100
+    gem: 45
+  - id: 18
+    name: Cone
+    display: "\u677E\u679C"
+    unitPrice: 14
+    gemPrice: 0.7
+    task: 121
+    scene: main
+    num: 100
+    gem: 70
+  - id: 19
+    name: DeadWoodPlank
+    display: "\u67AF\u6728\u677F"
+    unitPrice: 6
+    gemPrice: 0.3
+    task: 142
+    scene: main
+    num: 100
+    gem: 30
+  - id: 20
+    name: FishSoup
+    display: "\u9C7C\u6C64"
+    unitPrice: 14
+    gemPrice: 0.7
+    task: 148
+    scene: main
+    num: 50
+    gem: 35
+  - id: 21
+    name: Egg
+    display: "\u9E21\u86CB"
+    unitPrice: 9
+    gemPrice: 0.45
+    task: 161
+    scene: main
+    num: 100
+    gem: 45
+  - id: 22
+    name: Bamboo
+    display: "\u7AF9\u5B50"
+    unitPrice: 2
+    gemPrice: 0.1
+    task: 159
+    scene: main
+    num: 200
+    gem: 20
+  - id: 23
+    name: BambooTissue
+    display: "\u7AF9\u7EA4\u7EF4"
+    unitPrice: 14
+    gemPrice: 0.7
+    task: 180
+    scene: main
+    num: 50
+    gem: 35
+  - id: 24
+    name: Orange
+    display: "\u6A58\u5B50"
+    unitPrice: 3
+    gemPrice: 0.15
+    task: 173
+    scene: main
+    num: 100
+    gem: 15
+  - id: 25
+    name: Cotton
+    display: "\u68C9\u82B1"
+    unitPrice: 20
+    gemPrice: 1
+    task: 200
+    scene: main
+    num: 50
+    gem: 50
+  monsters:
+  - id: 1
+    name: skeleton
+    chinese: "\u5C0F\u5175"
+    atk: 17
+    hp: 90
+    speed: 1
+  - id: 2
+    name: bat
+    chinese: "\u8759\u8760"
+    atk: 6
+    hp: 60
+    speed: 0.6
+  - id: 3
+    name: pig
+    chinese: "\u732A\u5934"
+    atk: 12
+    hp: 70
+    speed: 0.8
+  - id: 4
+    name: slim
+    chinese: "\u53F2\u83B1\u59C6"
+    atk: 8
+    hp: 80
+    speed: 1
+  - id: 5
+    name: elephant
+    chinese: "\u5927\u8C61"
+    atk: 15
+    hp: 160
+    speed: 1.2
+  - id: 6
+    name: rhino
+    chinese: "\u7280\u725B"
+    atk: 20
+    hp: 200
+    speed: 0.8
+  resBuildings:
+  - id: 1
+    name: Sawmill
+    speed: 2
+    res: 
+    num: 0
+    ad: 50
+  - id: 2
+    name: Stonemine
+    speed: 3
+    res: 
+    num: 0
+    ad: 30
+  - id: 3
+    name: Farm
+    speed: 60
+    res: 
+    num: 0
+    ad: 20
+  - id: 4
+    name: AppleTree
+    speed: 60
+    res: 
+    num: 0
+    ad: 25
+  - id: 5
+    name: WoodFactory
+    speed: 6
+    res: Wood
+    num: 2
+    ad: 10
+  - id: 6
+    name: StoneFactory
+    speed: 8
+    res: Stone
+    num: 2
+    ad: 5
+  - id: 7
+    name: BreadFactory
+    speed: 20
+    res: Grain
+    num: 4
+    ad: 10
+  - id: 8
+    name: SheepFactory
+    speed: 15
+    res: Sheep
+    num: 1
+    ad: 5
+  - id: 9
+    name: FishingHut
+    speed: 6
+    res: 
+    num: 0
+    ad: 25
+  - id: 10
+    name: IronMine
+    speed: 6
+    res: 
+    num: 0
+    ad: 20
+  - id: 11
+    name: IronFactory
+    speed: 15
+    res: Iron
+    num: 4
+    ad: 5
+  - id: 12
+    name: CactusFactory
+    speed: 6
+    res: Cactus
+    num: 5
+    ad: 10
+  - id: 13
+    name: CarrotPatch
+    speed: 60
+    res: 
+    num: 0
+    ad: 30
+  - id: 14
+    name: ConeFactory
+    speed: 6
+    res: WinterWood
+    num: 4
+    ad: 10
+  - id: 15
+    name: DeadWoodFactory
+    speed: 6
+    res: DeadWood
+    num: 2
+    ad: 10
+  - id: 16
+    name: CookingPot
+    speed: 30
+    res: Fish
+    num: 4
+    ad: 10
+  - id: 17
+    name: ChickenRoost
+    speed: 15
+    res: Chicken
+    num: 1
+    ad: 3
+  - id: 18
+    name: WeaverFactory
+    speed: 6
+    res: Bamboo
+    num: 5
+    ad: 10
+  - id: 19
+    name: OrangeTree
+    speed: 60
+    res: 
+    num: 0
+    ad: 25
+  - id: 20
+    name: CottonFarm
+    speed: 300
+    res: 
+    num: 0
+    ad: 5
+  researchs:
+  - id: 1
+    chineseName: "\u535A\u7269\u9986"
+    gem: 15
+    name: Museum
+    unlock: 40
+  - id: 2
+    chineseName: "\u7F8A\u5708"
+    gem: 25
+    name: FarmerHouse
+    unlock: 46
+  - id: 3
+    chineseName: "\u706F\u5854"
+    gem: 35
+    name: Lighthouse
+    unlock: 75
+  - id: 4
+    chineseName: "\u8239"
+    gem: 50
+    name: Ship
+    unlock: 82
+  - id: 5
+    chineseName: "\u56FE\u4E66\u9986"
+    gem: 75
+    name: Library
+    unlock: 93
+  - id: 6
+    chineseName: "\u5B9D\u77F3\u5854"
+    gem: 90
+    name: GemTower
+    unlock: 96
+  - id: 7
+    chineseName: "\u5B66\u9662"
+    gem: 150
+    name: Academy
+    unlock: 132
+  - id: 8
+    chineseName: "\u517B\u9E21\u573A"
+    gem: 300
+    name: ChickenFarm
+    unlock: 157
+  resources:
+  - id: 1
+    name: Wood
+    restore: 20
+    collect: 6
+  - id: 2
+    name: Stone
+    restore: 20
+    collect: 6
+  - id: 3
+    name: Grain
+    restore: 35
+    collect: 4
+  - id: 4
+    name: Iron
+    restore: 50
+    collect: 6
+  - id: 5
+    name: Cactus
+    restore: 20
+    collect: 6
+  - id: 6
+    name: WinterWood
+    restore: 20
+    collect: 6
+  - id: 7
+    name: DeadWood
+    restore: 20
+    collect: 6
+  - id: 8
+    name: Bamboo
+    restore: 20
+    collect: 6
+  sevenDays:
+  - id: 1
+    goods: Gem
+    num: 100
+  - id: 2
+    goods: Scroll
+    num: 200
+  - id: 3
+    goods: AncientShard
+    num: 300
+  - id: 4
+    goods: Gem
+    num: 400
+  - id: 5
+    goods: Scroll
+    num: 500
+  - id: 6
+    goods: AncientShard
+    num: 600
+  - id: 7
+    goods: ship
+    num: 1
+  shops:
+  - id: 1
+    name: "\u4E00\u5806\u91D1\u5E01"
+    price: 8
+    goods:
+    - Gold
+    num: 88130000
+    type: "\u91D1\u5E01"
+    task: 8
+    icon: img_shop_gold1
+    bg: img_shop_bgL_1
+    iconBg: 
+    titleBg: 
+  - id: 2
+    name: "\u5927\u91CF\u91D1\u5E01"
+    price: 15
+    goods:
+    - Gold
+    num: bc340000
+    type: "\u91D1\u5E01"
+    task: 8
+    icon: img_shop_gold2
+    bg: img_shop_bgL_1
+    iconBg: 
+    titleBg: 
+  - id: 3
+    name: "\u4E00\u888B\u91D1\u5E01"
+    price: 30
+    goods:
+    - Gold
+    num: 30750000
+    type: "\u91D1\u5E01"
+    task: 8
+    icon: img_shop_gold3
+    bg: img_shop_bgL_1
+    iconBg: 
+    titleBg: 
+  - id: 4
+    name: "\u4E00\u7BB1\u91D1\u5E01"
+    price: 60
+    goods:
+    - Gold
+    num: f8240100
+    type: "\u91D1\u5E01"
+    task: 8
+    icon: img_shop_gold4
+    bg: img_shop_bgL_1
+    iconBg: 
+    titleBg: 
+  - id: 5
+    name: "\u4E00\u9EBB\u888B\u91D1\u5E01"
+    price: 118
+    goods:
+    - Gold
+    num: f0490200
+    type: "\u91D1\u5E01"
+    task: 8
+    icon: img_shop_gold5
+    bg: img_shop_bgL_1
+    iconBg: 
+    titleBg: 
+  - id: 6
+    name: "\u4E00\u8F66\u91D1\u5E01"
+    price: 198
+    goods:
+    - Gold
+    num: 38320400
+    type: "\u91D1\u5E01"
+    task: 8
+    icon: img_shop_gold6
+    bg: img_shop_bgL_1
+    iconBg: 
+    titleBg: 
+  - id: 7
+    name: "\u4E00\u5806\u5E7F\u544A\u5238"
+    price: 3
+    goods:
+    - Ticket
+    num: 0f000000
+    type: "\u5E7F\u544A\u5238"
+    task: 8
+    icon: img_shop_adcard1
+    bg: img_shop_bgL_2
+    iconBg: 
+    titleBg: 
+  - id: 8
+    name: "\u4E00\u5305\u5E7F\u544A\u5238"
+    price: 8
+    goods:
+    - Ticket
+    num: 28000000
+    type: "\u5E7F\u544A\u5238"
+    task: 8
+    icon: img_shop_adcard2
+    bg: img_shop_bgL_2
+    iconBg: 
+    titleBg: 
+  - id: 9
+    name: "\u4E00\u888B\u5E7F\u544A\u5238"
+    price: 30
+    goods:
+    - Ticket
+    num: 96000000
+    type: "\u5E7F\u544A\u5238"
+    task: 8
+    icon: img_shop_adcard3
+    bg: img_shop_bgL_2
+    iconBg: 
+    titleBg: 
+  - id: 10
+    name: "\u4E00\u5806\u5377\u8F74"
+    price: 12
+    goods:
+    - Scroll
+    num: 64000000
+    type: "\u5377\u8F74"
+    task: 38
+    icon: img_shop_scroll1
+    bg: img_shop_bgL_3
+    iconBg: 
+    titleBg: 
+  - id: 11
+    name: "\u4E00\u5305\u5377\u8F74"
+    price: 25
+    goods:
+    - Scroll
+    num: e1000000
+    type: "\u5377\u8F74"
+    task: 38
+    icon: img_shop_scroll2
+    bg: img_shop_bgL_3
+    iconBg: 
+    titleBg: 
+  - id: 12
+    name: "\u4E00\u888B\u5377\u8F74"
+    price: 78
+    goods:
+    - Scroll
+    num: bc020000
+    type: "\u5377\u8F74"
+    task: 38
+    icon: img_shop_scroll3
+    bg: img_shop_bgL_3
+    iconBg: 
+    titleBg: 
+  - id: 13
+    name: "\u4E00\u5806\u5B9D\u77F3"
+    price: 12
+    goods:
+    - Gem
+    num: fa000000
+    type: "\u5B9D\u77F3"
+    task: 38
+    icon: img_shop_gem1
+    bg: img_shop_bgL_4
+    iconBg: 
+    titleBg: 
+  - id: 14
+    name: "\u4E00\u5305\u5B9D\u77F3"
+    price: 50
+    goods:
+    - Gem
+    num: b0040000
+    type: "\u5B9D\u77F3"
+    task: 38
+    icon: img_shop_gem2
+    bg: img_shop_bgL_4
+    iconBg: 
+    titleBg: 
+  - id: 15
+    name: "\u4E00\u888B\u5B9D\u77F3"
+    price: 98
+    goods:
+    - Gem
+    num: c4090000
+    type: "\u5B9D\u77F3"
+    task: 38
+    icon: img_shop_gem3
+    bg: img_shop_bgL_4
+    iconBg: 
+    titleBg: 
+  - id: 16
+    name: "\u65B0\u624B\u793C\u5305"
+    price: 12
+    goods:
+    - Gold
+    - Stone
+    - Apple
+    - Pumpkin
+    num: 102700005e01000096000000c8000000
+    type: "\u793C\u5305"
+    task: 22
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_1
+    iconBg: img_shop_item1
+    titleBg: 1
+  - id: 17
+    name: "\u4E2D\u571F\u793C\u5305"
+    price: 12
+    goods:
+    - Potion
+    - Cone
+    - Bread
+    num: 640000009600000064000000
+    type: "\u793C\u5305"
+    task: 120
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_2
+    iconBg: img_shop_item2
+    titleBg: 2
+  - id: 18
+    name: "\u77FF\u5DE5\u793C\u5305"
+    price: 12
+    goods:
+    - Iron
+    - Bread
+    - Potion
+    num: f4010000c800000050000000
+    type: "\u793C\u5305"
+    task: 108
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_3
+    iconBg: img_shop_item3
+    titleBg: 3
+  - id: 19
+    name: "\u77F3\u5934\u5C9B\u793C\u5305"
+    price: 12
+    goods:
+    - Cone
+    - Fish
+    - Bread
+    - DeadWoodPlank
+    num: 96000000640000003200000032000000
+    type: "\u793C\u5305"
+    task: 140
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_4
+    iconBg: img_shop_item4
+    titleBg: 4
+  - id: 20
+    name: "\u5DE5\u5382\u793C\u5305"
+    price: 12
+    goods:
+    - Brick
+    - Nail
+    num: c800000064000000
+    type: "\u793C\u5305"
+    task: 70
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_1
+    iconBg: img_shop_item1
+    titleBg: 1
+  - id: 21
+    name: "\u9972\u517B\u5458\u793C\u5305"
+    price: 18
+    goods:
+    - FishSoup
+    - Potion
+    num: 640000002c010000
+    type: "\u793C\u5305"
+    task: 152
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_2
+    iconBg: img_shop_item2
+    titleBg: 2
+  - id: 22
+    name: "\u519C\u592B\u793C\u5305"
+    price: 12
+    goods:
+    - Wood
+    - Apple
+    - Bread
+    - Pumpkin
+    num: c800000064000000640000002c010000
+    type: "\u793C\u5305"
+    task: 65
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_3
+    iconBg: img_shop_item3
+    titleBg: 3
+  - id: 23
+    name: "\u7403\u679C\u7279\u60E0"
+    price: 12
+    goods:
+    - Cone
+    - WinterWood
+    num: c800000032000000
+    type: "\u793C\u5305"
+    task: 140
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_4
+    iconBg: img_shop_item4
+    titleBg: 4
+  - id: 24
+    name: "\u51AC\u5B63\u7279\u60E0"
+    price: 12
+    goods:
+    - Plank
+    - Wool
+    num: 6400000032000000
+    type: "\u793C\u5305"
+    task: 50
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_1
+    iconBg: img_shop_item1
+    titleBg: 1
+  - id: 25
+    name: "\u5B9D\u77F3\u7BB1"
+    price: 78
+    goods:
+    - Sapphire
+    - Ruby
+    - Emerald
+    - Amethyst
+    num: 780000003c0000001e0000000a000000
+    type: "\u7279\u6B8A"
+    task: 80
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_1
+    iconBg: img_shop_item1
+    titleBg: 1
+  - id: 26
+    name: "\u6B66\u5668\u7B26\u6587\u5305"
+    price: 78
+    goods:
+    - OrbShard
+    - SwordRune
+    - AxeRune
+    - BladeRune
+    - TalismanRune
+    num: e80300000a0000000a0000000a0000000a000000
+    type: "\u7279\u6B8A"
+    task: 38
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_2
+    iconBg: img_shop_item2
+    titleBg: 2
+  - id: 27
+    name: "\u88C5\u5907\u7B26\u6587\u5305"
+    price: 78
+    goods:
+    - Gold
+    - ShieldRune
+    - HelmetRune
+    - ArmorRune
+    - CloakRune
+    num: 102700000a0000000a0000000a0000000a000000
+    type: "\u7279\u6B8A"
+    task: 38
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_3
+    iconBg: img_shop_item3
+    titleBg: 3
+  - id: 28
+    name: VIP1
+    price: 18
+    goods: []
+    num: 07000000
+    type: VIP
+    task: 8
+    icon: 
+    bg: 
+    iconBg: 
+    titleBg: 
+  - id: 29
+    name: VIP2
+    price: 50
+    goods: []
+    num: 1e000000
+    type: VIP
+    task: 8
+    icon: 
+    bg: 
+    iconBg: 
+    titleBg: 
+  - id: 30
+    name: VIP3
+    price: 198
+    goods: []
+    num: 6d010000
+    type: VIP
+    task: 8
+    icon: 
+    bg: 
+    iconBg: 
+    titleBg: 
+  - id: 31
+    name: "\u53E4\u4EE3\u788E\u7247\u793C\u5305"
+    price: 198
+    goods:
+    - Gem
+    - AncientShard
+    num: d40300002c010000
+    type: "\u7279\u6B8A"
+    task: 41
+    icon: img_shop_itemB0
+    bg: img_shop_bgB_4
+    iconBg: 
+    titleBg: 
+  spaceShips:
+  - id: 1
+    assets:
+    - Wood
+    - Stone
+    - Pumpkin
+    num: fa0000006400000032000000
+  - id: 2
+    assets:
+    - Wood
+    - Pumpkin
+    - Apple
+    num: f40100009600000064000000
+  - id: 3
+    assets:
+    - Wood
+    - Stone
+    - Pumpkin
+    num: e8030000f4010000fa000000
+  - id: 4
+    assets:
+    - Stone
+    - Pumpkin
+    - Apple
+    num: e80300005e010000fa000000
+  - id: 5
+    assets:
+    - Wood
+    - Pumpkin
+    - Apple
+    num: dc050000f4010000f4010000
+  - id: 6
+    assets:
+    - Stone
+    - Apple
+    - Plank
+    num: e2040000ee02000032000000
+  - id: 7
+    assets:
+    - Pumpkin
+    - Plank
+    - Brick
+    num: ee0200004b00000032000000
+  - id: 8
+    assets:
+    - Plank
+    - Brick
+    - Wool
+    num: 7d0000007d00000019000000
+  - id: 9
+    assets:
+    - Plank
+    - Brick
+    - Wool
+    num: af0000009600000032000000
+  - id: 10
+    assets:
+    - Pumpkin
+    - Brick
+    - Wool
+    num: 84030000c80000004b000000
+  - id: 11
+    assets:
+    - Wood
+    - Apple
+    - Wool
+    num: d00700002003000064000000
+  - id: 12
+    assets:
+    - Stone
+    - Plank
+    - Brick
+    num: dc050000c8000000fa000000
+  - id: 13
+    assets:
+    - Wood
+    - Apple
+    - Wool
+    num: b80b00008403000096000000
+  - id: 14
+    assets:
+    - Brick
+    - Wool
+    - Grain
+    num: 13010000c8000000fa000000
+  - id: 15
+    assets:
+    - Stone
+    - Plank
+    - Grain
+    num: d6060000fa00000090010000
+  - id: 16
+    assets:
+    - Pumpkin
+    - Wool
+    - Bread
+    num: e8030000fa00000019000000
+  - id: 17
+    assets:
+    - Stone
+    - Bread
+    - Iron
+    num: ca0800003200000032000000
+  - id: 18
+    assets:
+    - Brick
+    - Bread
+    - Nail
+    num: 450100006400000032000000
+  - id: 19
+    assets:
+    - Brick
+    - Bread
+    - Nail
+    num: bc0200009600000064000000
+  - id: 20
+    assets:
+    - Brick
+    - Wool
+    - Nail
+    num: 8a0200009001000096000000
+  - id: 21
+    assets:
+    - Wood
+    - Stone
+    - Nail
+    num: a00f0000c4090000ee020000
+  - id: 22
+    assets:
+    - Pumpkin
+    - Apple
+    - Plank
+    num: b0040000e8030000f4010000
+  - id: 23
+    assets:
+    - Brick
+    - Bread
+    - Nail
+    num: 20030000fa000000c8000000
+  - id: 24
+    assets:
+    - Plank
+    - Wool
+    - Cactus
+    num: 8a020000f4010000e8030000
+  - id: 25
+    assets:
+    - Stone
+    - Bread
+    - Nail
+    num: b80b00005e010000fa000000
+  - id: 26
+    assets:
+    - Pumpkin
+    - Brick
+    - Potion
+    num: dc050000e803000064000000
+  - id: 27
+    assets:
+    - Wood
+    - Nail
+    - Potion
+    num: 881300002c010000c8000000
+  - id: 28
+    assets:
+    - Wool
+    - Bread
+    - Carrot
+    num: 8a0200009001000064000000
+  - id: 29
+    assets:
+    - Brick
+    - Carrot
+    - WinterWood
+    num: dc050000c8000000e8030000
+  - id: 30
+    assets:
+    - Apple
+    - Nail
+    - Cone
+    num: dc0500009001000064000000
+  - id: 31
+    assets:
+    - Stone
+    - Bread
+    - Cone
+    num: 88130000f4010000c8000000
+  - id: 32
+    assets:
+    - Potion
+    - Carrot
+    - DeadWood
+    num: 900100005e010000e8030000
+  - id: 33
+    assets:
+    - Brick
+    - Cone
+    - DeadWoodPlank
+    num: dc0500005e01000064000000
+  - id: 34
+    assets:
+    - Wool
+    - Potion
+    - DeadWoodPlank
+    num: 2003000026020000fa000000
+  - id: 35
+    assets:
+    - Pumpkin
+    - Carrot
+    - Cone
+    num: e8030000f4010000f4010000
+  - id: 36
+    assets:
+    - Potion
+    - DeadWoodPlank
+    - FishSoup
+    num: bc0200005e01000032000000
+  - id: 37
+    assets:
+    - Brick
+    - Bread
+    - FishSoup
+    num: dc0500008a02000064000000
+  - id: 38
+    assets:
+    - Cone
+    - FishSoup
+    - Egg
+    num: 8a0200009600000019000000
+  - id: 39
+    assets:
+    - Nail
+    - DeadWoodPlank
+    - Egg
+    num: 8a020000f401000064000000
+  - id: 40
+    assets:
+    - Stone
+    - Potion
+    - Egg
+    num: 4c1d000052030000fa000000
+  - id: 41
+    assets:
+    - Wood
+    - Nail
+    - FishSoup
+    num: 64190000ee020000c8000000
+  - id: 42
+    assets:
+    - Plank
+    - Iron
+    - Cone
+    num: 20030000dc05000020030000
+  - id: 43
+    assets:
+    - Wool
+    - Carrot
+    - Egg
+    num: f40100008a0200002c010000
+  - id: 44
+    assets:
+    - WinterWood
+    - DeadWoodPlank
+    - Pearl
+    num: dc0500008a02000005000000
+  - id: 45
+    assets:
+    - Brick
+    - Potion
+    - Egg
+    num: d6060000e803000090010000
+  - id: 46
+    assets:
+    - Apple
+    - DeadWood
+    - Pearl
+    num: dc050000d00700000a000000
+  - id: 47
+    assets:
+    - Stone
+    - Wool
+    - Cone
+    num: 3421000020030000e8030000
+  - id: 48
+    assets:
+    - Nail
+    - Carrot
+    - FishSoup
+    num: e8030000520300002c010000
+  - id: 49
+    assets:
+    - Wool
+    - Potion
+    - Egg
+    num: b6030000e8030000f4010000
+  - id: 50
+    assets:
+    - Pumpkin
+    - Bread
+    - Pearl
+    num: d60600008a0200000f000000
+  - id: 51
+    assets:
+    - Cone
+    - FishSoup
+    - Bamboo
+    num: dc05000090010000e8030000
+  - id: 52
+    assets:
+    - Pumpkin
+    - Bread
+    - Egg
+    num: d0070000520300008a020000
+  - id: 53
+    assets:
+    - Potion
+    - DeadWoodPlank
+    - Orange
+    num: dc05000052030000f4010000
+  - id: 54
+    assets:
+    - Wood
+    - Pearl
+    - BambooTissue
+    num: 342100001900000064000000
+  - id: 55
+    assets:
+    - Bread
+    - Orange
+    - BambooTissue
+    num: e8030000bc020000af000000
+  - id: 56
+    assets:
+    - Plank
+    - Carrot
+    - Egg
+    num: b0040000e803000052030000
+  - id: 57
+    assets:
+    - Wool
+    - Pearl
+    - BambooTissue
+    num: e803000019000000fa000000
+  - id: 58
+    assets:
+    - Nail
+    - DeadWoodPlank
+    - Orange
+    num: e2040000e803000052030000
+  - id: 59
+    assets:
+    - Stone
+    - Cone
+    - BambooTissue
+    num: 10270000dc0500005e010000
+  - id: 60
+    assets:
+    - FishSoup
+    - Orange
+    - BambooTissue
+    num: 26020000b6030000f4010000
+  - id: 61
+    assets:
+    - Plank
+    - DeadWoodPlank
+    - Egg
+    num: 78050000b0040000e8030000
+  - id: 62
+    assets:
+    - Brick
+    - WinterWood
+    - Pearl
+    num: c40900006c07000019000000
+  - id: 63
+    assets:
+    - Apple
+    - DeadWood
+    - BambooTissue
+    num: dc050000c4090000ee020000
+  - id: 64
+    assets:
+    - Potion
+    - Carrot
+    - Egg
+    num: 0807000014050000b0040000
+  - id: 65
+    assets:
+    - Cone
+    - Orange
+    - SakuraPlank
+    num: 6c070000e2040000fa000000
+  - id: 66
+    assets:
+    - Bread
+    - Nail
+    - BambooTissue
+    num: dc050000b0040000e8030000
+  - id: 67
+    assets:
+    - Pumpkin
+    - Wool
+    - SakuraPlank
+    num: b80b0000e204000090010000
+  - id: 68
+    assets:
+    - Wood
+    - Egg
+    - Orange
+    num: 10270000dc050000dc050000
+  - id: 69
+    assets:
+    - DeadWoodPlank
+    - FishSoup
+    - Pearl
+    num: 72060000ee02000019000000
+  - id: 70
+    assets:
+    - Bread
+    - Potion
+    - SakuraPlank
+    num: dc050000ca0800008a020000
+  - id: 71
+    assets:
+    - FishSoup
+    - Sakura
+    - Burger
+    num: b0040000e8030000f4010000
+  - id: 72
+    assets:
+    - BambooTissue
+    - Burger
+    - BirdDish
+    num: e2040000ee0200005e010000
+  - id: 73
+    assets:
+    - SakuraPlank
+    - BirdDish
+    - Pearl
+    num: b60300008a02000019000000
+  - id: 74
+    assets:
+    - Nail
+    - Burger
+    - Lotus
+    num: c4090000e803000096000000
+  - id: 75
+    assets:
+    - SakuraPlank
+    - BirdDish
+    - Lotus
+    num: e2040000b6030000f4010000
+  - id: 76
+    assets:
+    - BambooTissue
+    - BirdDish
+    - AlpacaWool
+    num: dc0500004c040000fa000000
+  - id: 77
+    assets:
+    - Cone
+    - MagicEgg
+    - Pearl
+    num: 92090000fa00000032000000
+  - id: 78
+    assets:
+    - FishSoup
+    - BirdDish
+    - AlpacaWool
+    num: dc050000b0040000f4010000
+  - id: 79
+    assets:
+    - Burger
+    - Lotus
+    - MagicEgg
+    num: e2040000e8030000f4010000
+  - id: 80
+    assets:
+    - Brick
+    - Lotus
+    - MagicEgg
+    num: c4090000e204000026020000
+  - id: 81
+    assets:
+    - Plank
+    - Potion
+    - AlpacaWool
+    num: d0070000c40900008a020000
+  - id: 82
+    assets:
+    - Wool
+    - Corn
+    - Stalagmite
+    num: dc050000e8030000f4010000
+  - id: 83
+    assets:
+    - Bread
+    - BambooTissue
+    - Stalagmite
+    num: 9e0700003a070000e8030000
+  - id: 84
+    assets:
+    - Nail
+    - Egg
+    - MagicDust
+    num: b80b0000d6060000fa000000
+  - id: 85
+    assets:
+    - FishSoup
+    - Burger
+    - Malachite
+    num: e8030000dc050000e8030000
+  - id: 86
+    assets:
+    - BirdDish
+    - Lotus
+    - MagicDust
+    num: dc050000aa050000f4010000
+  - id: 87
+    assets:
+    - MagicDust
+    - MalachiteRod
+    - MysteriousFruit
+    num: ee020000fa000000fa000000
+  - id: 88
+    assets:
+    - Stalagmite
+    - MalachiteRod
+    - MysteriousFruit
+    num: dc050000f4010000f4010000
+  - id: 89
+    assets:
+    - MagicDust
+    - MalachiteRod
+    - Syrup
+    num: e8030000e803000096000000
+  - id: 90
+    assets:
+    - Malachite
+    - Syrup
+    - Mushroom
+    num: d0070000fa000000fa000000
+  - id: 91
+    assets:
+    - MagicDust
+    - MysteriousFruit
+    - Mushroom
+    num: b0040000ee020000f4010000
+  - id: 92
+    assets:
+    - MalachiteRod
+    - Syrup
+    - Poison
+    num: e2040000f4010000fa000000
+  - id: 93
+    assets:
+    - Stalagmite
+    - MysteriousFruit
+    - Poison
+    num: c4090000e8030000f4010000
+  - id: 94
+    assets:
+    - Lotus
+    - Syrup
+    - RedPotion
+    num: dc050000ee02000019000000
+  - id: 95
+    assets:
+    - MagicDust
+    - RedPotion
+    - BluePotion
+    num: dc0500003200000019000000
+  - id: 96
+    assets:
+    - MalachiteRod
+    - Syrup
+    - BluePotion
+    num: dc050000e803000032000000
+  - id: 97
+    assets:
+    - Sapphire
+    - Amethyst
+    - RedPotion
+    num: 190000000a0000007d000000
+  - id: 98
+    assets:
+    - Ruby
+    - Emerald
+    - BluePotion
+    num: 23000000140000007d000000
+  - id: 99
+    assets:
+    - Amethyst
+    - Lotus
+    - BluePotion
+    num: 14000000d0070000fa000000
+  specialOffers:
+  - id: 1
+    price: 40
+    origin: 50
+    goods:
+    - Ruby
+    num: 64000000
+    type: resource
+    task: 129
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 2
+    price: 25
+    origin: 50
+    goods:
+    - Scroll
+    num: f4010000
+    type: scroll
+    task: 95
+    once: 1
+    icon: 
+    bg: 
+    name: "\u5377\u8F74\u793C\u5305"
+  - id: 3
+    price: 18
+    origin: 25
+    goods:
+    - Gem
+    - Gold
+    - Cone
+    - Plank
+    - Brick
+    num: c800000088130000c80000006400000064000000
+    type: resource
+    task: 128
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 4
+    price: 18
+    origin: 25
+    goods:
+    - Gem
+    num: f4010000
+    type: gem
+    task: 96
+    once: 1
+    icon: 
+    bg: 
+    name: "\u5B9D\u77F3\u793C\u5305"
+  - id: 5
+    price: 12
+    origin: 18
+    goods:
+    - Gem
+    num: 90010000
+    type: gem
+    task: 75
+    once: 1
+    icon: 
+    bg: 
+    name: "\u5B9D\u77F3\u793C\u5305"
+  - id: 6
+    price: 8
+    origin: 12
+    goods:
+    - Gem
+    num: fa000000
+    type: gem
+    task: 46
+    once: 1
+    icon: 
+    bg: 
+    name: "\u5B9D\u77F3\u793C\u5305"
+  - id: 7
+    price: 73
+    origin: 100
+    goods:
+    - Emerald
+    num: 64000000
+    type: resource
+    task: 168
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 8
+    price: 45
+    origin: 60
+    goods:
+    - Scroll
+    num: 58020000
+    type: scroll
+    task: 168
+    once: 1
+    icon: 
+    bg: 
+    name: "\u5377\u8F74\u793C\u5305"
+  - id: 9
+    price: 25
+    origin: 30
+    goods:
+    - Gold
+    - Scroll
+    num: 307500000f000000
+    type: gold
+    task: 169
+    once: 1
+    icon: 
+    bg: 
+    name: "\u91D1\u5E01\u793C\u5305"
+  - id: 10
+    price: 73
+    origin: 100
+    goods:
+    - Scroll
+    num: e8030000
+    type: scroll
+    task: 197
+    once: 1
+    icon: 
+    bg: 
+    name: "\u5377\u8F74\u793C\u5305"
+  - id: 11
+    price: 188
+    origin: 250
+    goods:
+    - Amethyst
+    num: 78000000
+    type: resource
+    task: 197
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 12
+    price: 40
+    origin: 50
+    goods:
+    - Gold
+    - Scroll
+    num: c8af000014000000
+    type: gold
+    task: 196
+    once: 1
+    icon: 
+    bg: 
+    name: "\u91D1\u5E01\u793C\u5305"
+  - id: 13
+    price: 12
+    origin: 12
+    goods:
+    - Gold
+    - Stone
+    - Apple
+    - Pumpkin
+    num: 102700005e01000096000000c8000000
+    type: resource
+    task: 23
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 14
+    price: 25
+    origin: 30
+    goods:
+    - Gold
+    - Nail
+    num: 3075000064000000
+    type: gold
+    task: 74
+    once: 1
+    icon: 
+    bg: 
+    name: "\u91D1\u5E01\u793C\u5305"
+  - id: 15
+    price: 18
+    origin: 30
+    goods:
+    - Fish
+    - Apple
+    - Wool
+    - Plank
+    num: 640000002c0100003200000032000000
+    type: resource
+    task: 41
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 16
+    price: 12
+    origin: 12
+    goods:
+    - Wood
+    - Apple
+    - Bread
+    - Pumpkin
+    num: c800000064000000640000002c010000
+    type: resource
+    task: 65
+    once: 1
+    icon: 
+    bg: 
+    name: "\u8D44\u6E90\u793C\u5305"
+  - id: 17
+    price: 12
+    origin: 15
+    goods:
+    - Gold
+    - Brick
+    num: bc34000064000000
+    type: gold
+    task: 53
+    once: 1
+    icon: 
+    bg: 
+    name: "\u91D1\u5E01\u793C\u5305"
+  statues:
+  - id: 1
+    name: Colossus
+    chinese: "\u5DE8\u50CF"
+    function: "\u653B\u51FB\u529B"
+    unlock: Gem
+  - id: 2
+    name: GoldApple
+    chinese: "\u91D1\u82F9\u679C"
+    function: "\u8840\u91CF"
+    unlock: Scroll
+  - id: 3
+    name: Miner
+    chinese: "\u77FF\u5DE5"
+    function: "\u50A8\u7269\u4ED3\u5BB9\u91CF"
+    unlock: Gem
+  - id: 4
+    name: MusicalKey
+    chinese: "\u97F3\u4E50\u94A5\u5319"
+    function: "\u95EA\u907F\u7387"
+    unlock: Gem
+  - id: 5
+    name: Excalibur
+    chinese: "\u738B\u8005\u4E4B\u5251"
+    function: "\u653B\u51FB\u56DE\u8840"
+    unlock: Gem
+  - id: 6
+    name: Totem
+    chinese: "\u56FE\u817E"
+    function: "\u6240\u9700\u8D44\u6E90\u51CF\u5C11"
+    unlock: Scroll
+  - id: 7
+    name: Dinosaur
+    chinese: "\u6050\u9F99"
+    function: "\u66B4\u51FB\u7387"
+    unlock: Gem
+  - id: 8
+    name: Elemental
+    chinese: "\u5143\u7D20\u65B9\u7891"
+    function: "\u5DE5\u5382\u5BB9\u91CF\u589E\u52A0"
+    unlock: Scroll
+  - id: 9
+    name: Time
+    chinese: "\u65F6\u95F4\u96D5\u5851"
+    function: "\u5DE5\u5382\u751F\u4EA7\u65F6\u95F4\u51CF\u5C11"
+    unlock: Gem
+  - id: 10
+    name: Sacred
+    chinese: "\u795E\u5723\u7EAA\u5FF5\u7891"
+    function: "\u526F\u672C\u602A\u7269\u8840\u91CF\u51CF\u5C11"
+    unlock: Scroll
+  - id: 11
+    name: Lumber
+    chinese: "\u4F10\u6728\u5DE5"
+    function: "\u80CC\u5305\u5BB9\u91CF"
+    unlock: Gem
+  - id: 12
+    name: Heart
+    chinese: "\u52C7\u6562\u7684\u5FC3"
+    function: "\u6297\u7206\u7387"
+    unlock: Scroll
+  - id: 13
+    name: Scarecrow
+    chinese: "\u7A3B\u8349\u4EBA"
+    function: "\u547D\u4E2D\u7387"
+    unlock: Scroll
+  - id: 14
+    name: Triumphal
+    chinese: "\u51EF\u65CB\u67F1"
+    function: "\u89D2\u8272\u7ECF\u9A8C\u83B7\u53D6\u589E\u52A0"
+    unlock: Gem
+  tasks:
+  - id: 1
+    type: collect
+    content: "\u91C7\u96C610\u5757\u6728\u5934"
+    num: 10
+    target: Wood
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 2
+    type: build
+    content: "\u5EFA\u9020\u5E02\u573A"
+    num: 1
+    target: Market
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 3
+    type: sell
+    content: "\u5728\u5E02\u573A\u4E0A\u51FA\u552E20\u4E2A\u6728\u5934"
+    num: 20
+    target: Wood
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 4
+    type: land
+    content: "\u8D2D\u4E70\u65B0\u7684\u571F\u5730"
+    num: 1
+    target: Land
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 5
+    type: build
+    content: "\u5EFA\u9020\u952F\u6728\u5382"
+    num: 1
+    target: Sawmill
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 6
+    type: build
+    content: "\u5EFA\u9020\u50A8\u7269\u4ED3"
+    num: 1
+    target: Storage
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 7
+    type: build
+    content: "\u5EFA\u9020\u57CE\u9547\u5927\u5385"
+    num: 1
+    target: Hall
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 8
+    type: upgrade
+    content: "\u5C06\u952F\u6728\u5382\u5347\u7EA7\u81F32\u7EA7"
+    num: 2
+    target: SawmillLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 9
+    type: build
+    content: "\u5EFA\u9020\u5DE5\u574A"
+    num: 1
+    target: Workshop
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 10
+    type: tool
+    content: "\u89E3\u9501\u641E\u5934"
+    num: 1
+    target: Pickaxe
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 11
+    type: build
+    content: "\u5EFA\u9020\u6865\u6881"
+    num: 1
+    target: Bridge
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 12
+    type: collect
+    content: "\u91C7\u96C620\u5757\u77F3\u5934"
+    num: 20
+    target: Stone
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 13
+    type: build
+    content: "\u5EFA\u9020\u91C7\u77F3\u573A"
+    num: 1
+    target: Stonemine
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 14
+    type: upgrade
+    content: "\u5C06\u50A8\u7269\u4ED3\u5347\u81F32\u7EA7"
+    num: 2
+    target: StorageLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 15
+    type: tool
+    content: "\u89E3\u9501\u94F2\u5B50"
+    num: 1
+    target: Shovel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 16
+    type: action
+    content: "\u6316\u51FA\u5B9D\u85CF"
+    num: 1
+    target: Treasure
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 17
+    type: upgrade
+    content: "\u5C06\u73A9\u5BB6\u7684\u91C7\u96C6\u80FD\u529B\u5347\u7EA7\u81F32\u7EA7"
+    num: 2
+    target: WorkerAbilityLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 18
+    type: build
+    content: "\u5EFA\u9020\u519C\u573A"
+    num: 1
+    target: Farm
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 19
+    type: collect
+    content: "\u91C7\u96C620\u4E2A\u5357\u74DC"
+    num: 20
+    target: Pumpkin
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 20
+    type: build
+    content: "\u683D\u79CD1\u9897\u82F9\u679C\u6811"
+    num: 1
+    target: AppleTree
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 21
+    type: collect
+    content: "\u91C7\u96C612\u4E2A\u82F9\u679C"
+    num: 12
+    target: Apple
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 22
+    type: build
+    content: "\u5EFA\u9020\u6B66\u5668\u5E93"
+    num: 1
+    target: Armory
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 23
+    type: equip
+    content: "\u89E3\u9501\u5251"
+    num: 1
+    target: 1
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 24
+    type: upgrade
+    content: "\u5C06\u50A8\u7269\u4ED3\u5347\u81F34\u7EA7"
+    num: 4
+    target: StorageLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 25
+    type: land
+    content: "\u89E3\u9501\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 1
+  - id: 26
+    type: complete
+    content: "\u5B8C\u6210\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 27
+    type: build
+    content: "\u5EFA\u9020\u7ADE\u6280\u573A"
+    num: 1
+    target: Armory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 28
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 1
+    auto: 1
+  - id: 29
+    type: assign
+    content: "\u5B89\u6392\u5DE5\u4EBA\u53BB\u6458\u82F9\u679C"
+    num: 1
+    target: Apple
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 30
+    type: build
+    content: "\u8D2D\u4E70\u55B7\u6CC9"
+    num: 1
+    target: Fountain
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 31
+    type: upgrade
+    content: "\u5C06\u65A7\u5B50\u5347\u7EA7\u81F32\u7EA7"
+    num: 2
+    target: AxeLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 32
+    type: build
+    content: "\u5EFA\u9020\u6728\u677F\u5382"
+    num: 1
+    target: WoodFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 33
+    type: collect
+    content: "\u751F\u4EA710\u5757\u6728\u677F"
+    num: 10
+    target: Plank
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 34
+    type: build
+    content: "\u5EFA\u9020\u7801\u5934"
+    num: 1
+    target: Pier
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 35
+    type: tool
+    content: "\u89E3\u9501\u9C7C\u7AFF"
+    num: 1
+    target: FishingRod
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 36
+    type: collect
+    content: "\u949310\u6761\u9C7C"
+    num: 10
+    target: Fish
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 37
+    type: build
+    content: "\u5EFA\u9020\u5B9E\u9A8C\u5BA4"
+    num: 1
+    target: ResearchLab
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 38
+    type: land
+    content: "\u5BFB\u627E\u4F20\u9001\u95E8"
+    num: 1
+    target: Portal
+    enable: 1
+    reward: 1
+    auto: 1
+  - id: 39
+    type: complete
+    content: "\u5B8C\u6210\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 40
+    type: research
+    content: "\u8D2D\u4E70\u535A\u7269\u9986\u7684\u84DD\u56FE"
+    num: 1
+    target: Museum
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 41
+    type: build
+    content: "\u5EFA\u9020\u535A\u7269\u9986"
+    num: 1
+    target: Museum
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 42
+    type: upgrade
+    content: "\u5C06\u91C7\u77F3\u573A\u5347\u7EA7\u81F32\u7EA7"
+    num: 2
+    target: StoneMineLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 43
+    type: build
+    content: "\u5EFA\u9020\u5236\u7816\u5382"
+    num: 1
+    target: StoneFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 44
+    type: collect
+    content: "\u751F\u4EA75\u5757\u7816"
+    num: 5
+    target: Brick
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 45
+    type: upgrade
+    content: "\u5C06\u952F\u6728\u5382\u5347\u7EA7\u81F33\u7EA7"
+    num: 3
+    target: SawmillLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 46
+    type: research
+    content: "\u8D2D\u4E70\u7F8A\u5708\u7684\u84DD\u56FE"
+    num: 1
+    target: FarmerHouse
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 47
+    type: build
+    content: "\u8D2D\u4E70\u7F8A\u6BDB\u5382"
+    num: 1
+    target: SheepFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 48
+    type: build
+    content: "\u5EFA\u9020\u7F8A\u5708"
+    num: 1
+    target: FarmerHouse
+    enable: 1
+    reward: 1
+    auto: 1
+  - id: 49
+    type: buy
+    content: "\u8D2D\u4E70\u7F8A"
+    num: 1
+    target: Sheep
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 50
+    type: collect
+    content: "\u6536\u96C610\u56E2\u7F8A\u6BDB"
+    num: 10
+    target: Wool
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 51
+    type: upgrade
+    content: "\u5C06\u91C7\u77F3\u573A\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: StoneMineLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 52
+    type: build
+    content: "\u5EFA\u9020\u9493\u9C7C\u5C0F\u5C4B"
+    num: 1
+    target: FishingHut
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 53
+    type: upgrade
+    content: "\u5C06\u5DE5\u4EBA\u80CC\u5305\u5347\u7EA7\u81F33\u7EA7"
+    num: 3
+    target: WorkerBagLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 54
+    type: upgrade
+    content: "\u5C06\u9C7C\u7AFF\u5347\u7EA7\u81F33\u7EA7"
+    num: 3
+    target: FishingRobLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 55
+    type: collect
+    content: "\u6536\u96C615\u6761\u9C7C"
+    num: 15
+    target: Fish
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 56
+    type: upgrade
+    content: "\u5C06\u6728\u677F\u5382\u5347\u7EA7\u81F32\u7EA7"
+    num: 2
+    target: WoodFactoryLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 57
+    type: tool
+    content: "\u89E3\u9501\u9570\u5200"
+    num: 1
+    target: Sickle
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 58
+    type: collect
+    content: "\u6536\u96C640\u4E2A\u8C37\u7269"
+    num: 40
+    target: Grain
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 59
+    type: build
+    content: "\u5EFA\u9020\u9762\u5305\u623F"
+    num: 1
+    target: BreadFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 60
+    type: collect
+    content: "\u6536\u96C610\u4E2A\u9762\u5305"
+    num: 10
+    target: Bread
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 61
+    type: upgrade
+    content: "\u5C06\u5236\u7816\u5382\u5347\u7EA7\u81F33\u7EA7"
+    num: 3
+    target: StoneFactoryLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 62
+    type: land
+    content: "\u89E3\u9501\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 1
+  - id: 63
+    type: complete
+    content: "\u5B8C\u6210\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 64
+    type: destroy
+    content: "\u6467\u6BC1\u654C\u4EBA\u8425\u5730"
+    num: 1
+    target: Camp
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 65
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 66
+    type: build
+    content: "\u5EFA\u9020\u55B7\u6CC9"
+    num: 1
+    target: Fountain
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 67
+    type: build
+    content: "\u5EFA\u9020\u94C1\u77FF\u573A"
+    num: 1
+    target: IronMine
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 68
+    type: collect
+    content: "\u91C7\u96C620\u5757\u94C1"
+    num: 20
+    target: Iron
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 69
+    type: upgrade
+    content: "\u5C06\u94C1\u77FF\u573A\u5347\u7EA7\u81F33\u7EA7"
+    num: 3
+    target: IronMineLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 70
+    type: build
+    content: "\u5EFA\u9020\u70BC\u94C1\u5382"
+    num: 1
+    target: IronFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 71
+    type: collect
+    content: "\u751F\u4EA710\u4E2A\u9489\u5B50"
+    num: 10
+    target: Nail
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 72
+    type: build
+    content: "\u5EFA\u9020\u4F20\u9001\u70B9"
+    num: 1
+    target: Teleport
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 73
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 74
+    type: upgrade
+    content: "\u5C06\u5DE5\u4EBA\u80CC\u5305\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: WorkerBagLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 75
+    type: research
+    content: "\u8D2D\u4E70\u706F\u5854\u7684\u84DD\u56FE"
+    num: 1
+    target: Lighthouse
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 76
+    type: build
+    content: "\u5EFA\u9020\u706F\u5854"
+    num: 1
+    target: Lighthouse
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 77
+    type: upgrade
+    content: "\u5C06\u70BC\u94C1\u5382\u5347\u81F34\u7EA7"
+    num: 4
+    target: IronFactoryLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 78
+    type: upgrade
+    content: "\u5C06\u5236\u7816\u5382\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: StoneFactoryLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 79
+    type: build
+    content: "\u5EFA\u9020\u84DD\u5B9D\u77F3\u77FF\u573A"
+    num: 1
+    target: DiamondMine
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 80
+    type: assign
+    content: "\u5B89\u6392\u5DE5\u4EBA\u53BB\u5F00\u91C7\u84DD\u5B9D\u77F3"
+    num: 1
+    target: Sapphire
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 81
+    type: tool
+    content: "\u83B7\u53D6\u5730\u56FE"
+    num: 1
+    target: Map
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 82
+    type: research
+    content: "\u8D2D\u4E70\u8239\u7684\u84DD\u56FE"
+    num: 1
+    target: Ship
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 83
+    type: build
+    content: "\u5EFA\u9020\u8239\u53EA"
+    num: 1
+    target: Ship
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 84
+    type: special
+    content: "\u62EF\u6551\u516C\u4E3B"
+    num: 1
+    target: Princess
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 85
+    type: build
+    content: "\u5EFA\u9020\u81EA\u5BB6"
+    num: 1
+    target: Home
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 86
+    type: build
+    content: "\u5EFA\u9020\u81EA\u5BB6\u5546\u5E97"
+    num: 1
+    target: HomeStore
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 87
+    type: buy
+    content: "\u8D2D\u4E70\u5BB6\u5C45\u7528\u54C1"
+    num: 1
+    target: HomeItem
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 88
+    type: place
+    content: "\u5C06\u7269\u54C1\u653E\u7F6E\u5728\u5BB6\u4E2D"
+    num: 1
+    target: HomeItem
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 89
+    type: build
+    content: "\u5EFA\u9020\u65D7\u5E1C"
+    num: 1
+    target: Flagstaff
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 90
+    type: create
+    content: "\u5236\u4F5C\u5C9B\u5C7F\u65D7\u5E1C"
+    num: 1
+    target: Flag
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 91
+    type: upgrade
+    content: "\u5C06\u9762\u5305\u5DE5\u5382\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: BreadFactoryLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 92
+    type: collect
+    content: "\u6536\u96C65\u4E2A\u5377\u8F74"
+    num: 5
+    target: Scroll
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 93
+    type: research
+    content: "\u8D2D\u4E70\u56FE\u4E66\u9986\u7684\u84DD\u56FE"
+    num: 1
+    target: Library
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 94
+    type: build
+    content: "\u5EFA\u9020\u56FE\u4E66\u9986"
+    num: 1
+    target: Library
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 95
+    type: library
+    content: "\u5347\u7EA7\u5B9D\u77F3\u77FF\u573A\u80FD\u529B"
+    num: 1
+    target: DiamondMine
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 96
+    type: research
+    content: "\u8D2D\u4E70\u5B9D\u77F3\u5854\u7684\u84DD\u56FE"
+    num: 1
+    target: GemTower
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 97
+    type: build
+    content: "\u5EFA\u9020\u5B9D\u77F3\u5854"
+    num: 1
+    target: GemTower
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 98
+    type: tower
+    content: "\u89E3\u9501\u5B9D\u77F3\u7B49\u7EA7"
+    num: 1
+    target: Sapphire
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 99
+    type: upgrade
+    content: "\u5C06\u9493\u9C7C\u5C0F\u5C4B\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: FishingHutLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 100
+    type: buy
+    content: "\u8D2D\u4E70\u7F8A"
+    num: 3
+    target: Sheep
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 101
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F32\u7EA7"
+    num: 2
+    target: HomeLevel
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 102
+    type: upgrade
+    content: "\u5C06\u73A9\u5BB6\u7684\u91C7\u96C6\u80FD\u529B\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: WorkerAbilityLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 103
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 104
+    type: assign
+    content: "\u5B89\u6392\u5DE5\u4EBA\u53BB\u5DE5\u4F5C"
+    num: 1
+    target: Worker
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 105
+    type: upgrade
+    content: "\u5C06\u94C1\u77FF\u573A\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: IronMineLevel
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 106
+    type: collect
+    content: "\u91C7\u96C650\u4E2A\u4ED9\u4EBA\u638C"
+    num: 50
+    target: Cactus
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 107
+    type: build
+    content: "\u5EFA\u9020\u4ED9\u4EBA\u638C\u836F\u6C34\u5DE5\u5382"
+    num: 1
+    target: CactusFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 108
+    type: collect
+    content: "\u6536\u96C6\u4ED9\u4EBA\u638C\u836F\u6C34"
+    num: 10
+    target: Potion
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 109
+    type: build
+    content: "\u5EFA\u9020\u4F20\u9001\u70B9"
+    num: 1
+    target: Teleport
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 110
+    type: land
+    content: "\u89E3\u9501\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 1
+  - id: 111
+    type: complete
+    content: "\u5B8C\u6210\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 112
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 113
+    type: build
+    content: "\u5EFA\u9020\u55B7\u6CC9"
+    num: 1
+    target: Fountain
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 114
+    type: upgrade
+    content: "\u5C06\u836F\u6C34\u5DE5\u5382\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: CactusFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 115
+    type: build
+    content: "\u5EFA\u9020\u80E1\u841D\u535C\u7530"
+    num: 1
+    target: CarrotPatch
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 116
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F33\u7EA7"
+    num: 1
+    target: HomeLevel
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 117
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 118
+    type: upgrade
+    content: "\u5C06\u952F\u6728\u5382\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: WoodFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 119
+    type: collect
+    content: "\u91C7\u96C650\u5757\u677E\u6728"
+    num: 50
+    target: WinterWood
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 120
+    type: build
+    content: "\u5EFA\u9020\u677E\u679C\u5DE5\u5382"
+    num: 1
+    target: ConeFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 121
+    type: collect
+    content: "\u6536\u96C6\u677E\u679C"
+    num: 10
+    target: Cone
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 122
+    type: upgrade
+    content: "\u5C06\u836F\u6C34\u5DE5\u5382\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: CactusFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 123
+    type: build
+    content: "\u5EFA\u9020\u80E1\u841D\u535C\u7530"
+    num: 1
+    target: CarrotPatch
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 124
+    type: upgrade
+    content: "\u5C06\u677E\u679C\u5DE5\u5382\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: ConeFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 125
+    type: build
+    content: "\u5EFA\u9020\u7EA2\u5B9D\u77F3\u77FF\u573A"
+    num: 1
+    target: RubyMine
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 126
+    type: assign
+    content: "\u5B89\u6392\u5DE5\u4EBA\u53BB\u5F00\u91C7\u7EA2\u5B9D\u77F3"
+    num: 1
+    target: RubyMine
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 127
+    type: build
+    content: "\u5EFA\u9020\u6865\u6881"
+    num: 1
+    target: BridgeTD
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 128
+    type: build
+    content: "\u5EFA\u9020\u73E0\u5B9D\u5E97"
+    num: 1
+    target: JewelryShop
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 129
+    type: tower
+    content: "\u5347\u7EA7\u5B9D\u77F3\u5854"
+    num: 1
+    target: Ruby
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 130
+    type: build
+    content: "\u5EFA\u9020\u4F20\u9001\u70B9"
+    num: 1
+    target: Teleport
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 131
+    type: upgrade
+    content: "\u5C06\u9570\u5200\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: SickleLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 132
+    type: research
+    content: "\u8D2D\u4E70\u5B66\u9662\u7684\u84DD\u56FE"
+    num: 1
+    target: Academy
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 133
+    type: build
+    content: "\u5EFA\u9020\u5B66\u9662"
+    num: 1
+    target: Academy
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 134
+    type: upgrade
+    content: "\u5C06\u50A8\u7269\u4ED3\u5347\u81F38\u7EA7"
+    num: 8
+    target: StorageLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 135
+    type: build
+    content: "\u5EFA\u9020\u8D1D\u58F3\u5546\u5E97"
+    num: 1
+    target: SeashellStore
+    enable: 0
+    reward: 1
+    auto: 0
+  - id: 136
+    type: exchange
+    content: "\u5151\u6362\u8D1D\u58F3"
+    num: 1
+    target: Seashell
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 137
+    type: kill
+    content: "\u51FB\u674025\u4E2A\u654C\u4EBA"
+    num: 25
+    target: Enemies
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 138
+    type: upgrade
+    content: "\u5C06\u7403\u679C\u5DE5\u5382\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: ConeFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 139
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: HomeLevel
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 140
+    type: collect
+    content: "\u91C7\u96C650\u9897\u67AF\u6728"
+    num: 50
+    target: DeadWood
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 141
+    type: build
+    content: "\u5EFA\u9020\u67AF\u6728\u5DE5\u5382"
+    num: 1
+    target: DeadWoodFactory
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 142
+    type: collect
+    content: "\u6536\u96C6\u67AF\u6728\u677F"
+    num: 20
+    target: DeadWoodPlank
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 143
+    type: build
+    content: "\u5EFA\u9020\u4F20\u9001\u70B9"
+    num: 1
+    target: Teleport
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 144
+    type: upgrade
+    content: "\u5C06\u67AF\u6728\u5DE5\u5382\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: DeadWoodFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 145
+    type: build
+    content: "\u5EFA\u9020\u9C7C\u9505"
+    num: 1
+    target: CookingPot
+    enable: 1
+    reward: 1
+    auto: 0
+  - id: 146
+    type: upgrade
+    content: "\u5C06\u9C7C\u7AFF\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: FishingRobLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 147
+    type: collect
+    content: "\u949340\u6761\u9C7C"
+    num: 40
+    target: Fish
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 148
+    type: collect
+    content: "\u5236\u4F5C10\u4EFD\u9C7C\u6C64"
+    num: 10
+    target: FishSoup
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 149
+    type: upgrade
+    content: "\u5C06\u9C7C\u9505\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: CookingPotLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 150
+    type: land
+    content: "\u89E3\u9501\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 1
+  - id: 151
+    type: complete
+    content: "\u5B8C\u6210\u5730\u4E0B\u57CE"
+    num: 1
+    target: Dungeon
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 152
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 153
+    type: share
+    content: "\u9080\u8BF7\u597D\u53CB\u6210\u4E3A\u5DE5\u4EBA"
+    num: 1
+    target: Friend
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 154
+    type: build
+    content: "\u5EFA\u9020\u55B7\u6CC9"
+    num: 1
+    target: Fountain
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 155
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: HomeLevel
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 156
+    type: upgrade
+    content: "\u5C06\u6728\u677F\u5382\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: WoodFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 157
+    type: research
+    content: "\u8D2D\u4E70\u517B\u9E21\u573A\u7684\u84DD\u56FE"
+    num: 1
+    target: ChickenFarm
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 158
+    type: build
+    content: "\u5EFA\u9020\u517B\u9E21\u573A"
+    num: 1
+    target: ChickenFarm
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 159
+    type: buy
+    content: "\u8D2D\u4E70\u9E21"
+    num: 1
+    target: Chicken
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 160
+    type: build
+    content: "\u5EFA\u9020\u9E21\u820D"
+    num: 1
+    target: ChickenRoost
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 161
+    type: collect
+    content: "\u6536\u96C610\u4E2A\u9E21\u86CB"
+    num: 10
+    target: Egg
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 162
+    type: upgrade
+    content: "\u5C06\u67AF\u6728\u5DE5\u5382\u5347\u7EA7\u81F38\u7EA7"
+    num: 8
+    target: DeadWoodFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 163
+    type: build
+    content: "\u5EFA\u9020\u7EFF\u5B9D\u77F3\u77FF\u573A"
+    num: 1
+    target: EmeraldMine
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 164
+    type: tool
+    content: "\u89E3\u9501\u6E38\u6CF3\u9762\u7F69"
+    num: 1
+    target: SwimmingMask
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 165
+    type: build
+    content: "\u5EFA\u9020\u6865\u6881"
+    num: 1
+    target: Bridge
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 166
+    type: find
+    content: "\u627E\u5230\u95E8\u77F3"
+    num: 1
+    target: GateStone
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 167
+    type: set
+    content: "\u8BBE\u7F6E\u95E8\u77F3"
+    num: 1
+    target: GateStone
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 168
+    type: tower
+    content: "\u5347\u7EA7\u5B9D\u77F3\u5854"
+    num: 1
+    target: Emerald
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 169
+    type: upgrade
+    content: "\u5C06\u9762\u5305\u5DE5\u5382\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: BreadFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 170
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 171
+    type: upgrade
+    content: "\u5C06\u65A7\u5B50\u5347\u7EA7\u81F35\u7EA7"
+    num: 5
+    target: AxeLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 172
+    type: build
+    content: "\u683D\u79CD1\u9897\u6A58\u5B50\u6811"
+    num: 1
+    target: OrangeTree
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 173
+    type: collect
+    content: "\u91C7\u96C615\u4E2A\u6A58\u5B50"
+    num: 15
+    target: Orange
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 174
+    type: buy
+    content: "\u8D2D\u4E70\u7F8A"
+    num: 4
+    target: Sheep
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 175
+    type: upgrade
+    content: "\u5C06\u70BC\u94C1\u5382\u5347\u81F36\u7EA7"
+    num: 6
+    target: IronFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 176
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: HomeLevel
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 177
+    type: collect
+    content: "\u91C7\u96C650\u6839\u7AF9\u5B50"
+    num: 50
+    target: Bamboo
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 178
+    type: collect
+    content: "\u91C7\u96C650\u4E2A\u6A58\u5B50"
+    num: 50
+    target: Orange
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 179
+    type: build
+    content: "\u5EFA\u9020\u7EBA\u7EC7\u5DE5\u5382"
+    num: 1
+    target: WeaverFactory
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 180
+    type: collect
+    content: "\u91C7\u96C620\u4E2A\u7AF9\u7EA4\u7EF4"
+    num: 20
+    target: BambooTissue
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 181
+    type: build
+    content: "\u5EFA\u9020\u623F\u5C4B"
+    num: 1
+    target: House
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 182
+    type: upgrade
+    content: "\u5C06\u7EBA\u7EC7\u5DE5\u5382\u5347\u7EA7\u81F34\u7EA7"
+    num: 4
+    target: WeaverFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 183
+    type: build
+    content: "\u5EFA\u9020\u9E21\u820D"
+    num: 1
+    target: ChickenRoostTD
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 184
+    type: buy
+    content: "\u8D2D\u4E70\u9E21"
+    num: 2
+    target: Chicken
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 185
+    type: collect
+    content: "\u91C7\u96C620\u4E2A\u9E21\u86CB"
+    num: 20
+    target: Egg
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 186
+    type: find
+    content: "\u627E\u5230\u95E8\u77F3"
+    num: 1
+    target: GateStone
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 187
+    type: set
+    content: "\u8BBE\u7F6E\u95E8\u77F3"
+    num: 1
+    target: GateStone
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 188
+    type: upgrade
+    content: "\u5C06\u9493\u9C7C\u5C0F\u5C4B\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: FishingHutLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 189
+    type: research
+    content: "\u8D2D\u4E70\u6E2F\u53E3\u7684\u84DD\u56FE"
+    num: 1
+    target: Harbour
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 190
+    type: build
+    content: "\u5EFA\u9020\u6E2F\u53E3"
+    num: 1
+    target: Harbour
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 191
+    type: land
+    content: "\u8D2D\u4E70\u65B0\u7684\u571F\u5730"
+    num: 1
+    target: Land
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 192
+    type: upgrade
+    content: "\u5C06\u7EBA\u7EC7\u5DE5\u5382\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: WeaverFactoryLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 193
+    type: build
+    content: "\u5EFA\u9020\u7D2B\u5B9D\u77F3\u77FF\u573A"
+    num: 1
+    target: AmethystMine
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 194
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F37\u7EA7"
+    num: 7
+    target: HomeLevel
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 195
+    type: build
+    content: "\u5EFA\u9020\u4F20\u9001\u70B9"
+    num: 1
+    target: Teleport
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 196
+    type: upgrade
+    content: "\u5C06\u9C7C\u9505\u5347\u7EA7\u81F36\u7EA7"
+    num: 6
+    target: CookingPotLevel
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 197
+    type: tower
+    content: "\u5347\u7EA7\u5B9D\u77F3\u5854"
+    num: 1
+    target: Amethyst
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 198
+    type: build
+    content: "\u5EFA\u9020\u519C\u573A"
+    num: 1
+    target: CottonFarm
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 199
+    type: build
+    content: "\u5EFA\u9020\u519C\u573A"
+    num: 1
+    target: CottonFarm
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 200
+    type: collect
+    content: "\u91C7\u96C6100\u6735\u68C9\u82B1"
+    num: 100
+    target: Cotton
+    enable: 1
+    reward: 0
+    auto: 0
+  - id: 201
+    type: upgrade
+    content: "\u5C06\u81EA\u5BB6\u5347\u7EA7\u81F38\u7EA7"
+    num: 8
+    target: HomeLevel
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 202
+    type: find
+    content: "\u627E\u5230\u95E8\u77F3"
+    num: 1
+    target: GateStone
+    enable: 0
+    reward: 0
+    auto: 0
+  - id: 203
+    type: set
+    content: "\u8BBE\u7F6E\u95E8\u77F3"
+    num: 1
+    target: GateStone
+    enable: 0
+    reward: 0
+    auto: 0
+  workshops:
+  - id: 1
+    chineseName: "\u9550\u5934"
+    gold: 20
+    name: Pickaxe
+  - id: 2
+    chineseName: "\u94F2\u5B50"
+    gold: 50
+    name: Shovel
+  - id: 3
+    chineseName: "\u9C7C\u7AFF"
+    gold: 200
+    name: FishingRod
+  - id: 4
+    chineseName: "\u9570\u5200"
+    gold: 500
+    name: Sickle
+  - id: 5
+    chineseName: "\u6E38\u6CF3\u9762\u7F69"
+    gold: 1500
+    name: SwimmingMask

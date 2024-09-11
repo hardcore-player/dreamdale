@@ -1,0 +1,36 @@
+/// <summary>
+/// Config类的逻辑处理部分
+/// </summary>
+public partial class @类名 : BaseConfig
+{
+    #region 参数
+
+    #endregion
+
+    #region public
+
+    /// <summary>
+    /// 初始化数据            
+    /// </summary>
+    public override void PuInit(System.Collections.Generic.Dictionary<string, string> datas)
+    {
+        foreach (var key in datas.Keys)
+        {
+            switch (key)
+            {
+                case "id":
+                    id = int.Parse(datas[key]);
+                    break;
+                @case
+            }
+        }
+    }
+
+    #endregion
+
+    #region private
+
+
+
+    #endregion
+}

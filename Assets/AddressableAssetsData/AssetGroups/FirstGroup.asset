@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: FirstGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: FirstGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2468ddb1067314b6f96cc3e276ba86df
+  m_SerializeEntries:
+  - m_GUID: 1f5cb931dbefb49ac824cc725f96e8ec
+    m_Address: Assets/Deal/GameResFirst
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c894396e017f4a1f9e74295c55cf96b
+    m_Address: Assets/Deal/GameResFirst/Config/MapData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: faab30322ad2c4b20a46feeb3be6d946
+    m_Address: Assets/Deal/GameResFirst/Config/ConfigMgrSObj.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b92826c9b06624676a07a404717d9fee
+    m_Address: Assets/Deal/GameResFirst/Atlas/AtlasAssets.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72a2d10f6695c439484438972d1bc573
+    m_Address: Assets/Deal/GameResFirst/Atlas/AtlasCommon.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c9cfa26abfee488c85f1582747f6a02
+    m_Address: Assets/Deal/GameResFirst/Scenes/Main.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6550d380c0344aac81d73c9063c6ec2
+    m_Address: Assets/Deal/GameResFirst/Prefabs/Map/Map.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b56cf2eb8da4348c3817782c794af639
+    m_Address: Assets/Deal/GameResources/UI/Load/UILoading.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97d3f85400b3542dc966c04b61238cc6
+    m_Address: Assets/Deal/Font
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7925233a0e7874e468bf8006bf047b0a
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_Cactus.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a0fb7db27d51490788d0f1683db7cfd
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_WinterWood.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d06f02452ee004f7dbbd00e8107784fe
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_DeadWood.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f1d303ebb8be4f2bb8612b50c358e0b
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_Bamboo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c99f4b74124f44d8807df5099a807df
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Ride/BuildingRideDen.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8fd343e885f3a4544beeb9044a3a72f3
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Potion/BuildingPotion.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b14084ca08054312b396cf55fa22352
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/WoodFactory/BuildingDeadWoodFactory.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80fee4c6bab9d4754abfe3aa0f2e69b8
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/ConeFactory/BuildingConeFactory.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a75ebc20f28034a209647a615462bf88
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/BambooFactory/BuildingBambooFactory.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4c35e9d48d1e43b784d94fbc7d4903c
+    m_Address: Assets/Deal/GameResources/UI/World/Environment/Teleport/UITeleportMap.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb01a088809ba406682cac4731f82fbe
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Carrot/CarrotPatch.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 094d5c3b44ebf466db90c25f3a46a65a
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Carrot/CarrotPatch_Unlocked.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2db58b768e65c48d4927d12476df9d15
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_Carrot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 843d9db0df9034cdaaef2ae3bbff7bbe
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/FishSoup/BuildingFishingSoup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b6ca260367f743c491bc1f1da5d0a3d
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/OrangeTree/OrangeTree.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59ba786df911f4feab2a6656ea9cb168
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/OrangeTree/OrangeTree_Unlocked.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6fea7e7ad8c9f415ba93dbb3269099fb
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_OrangeTree.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9de55dbba84434a41954a504ba2a02dd
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Bridge/BridgeTD.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 340cf24cfb5db4057aecae4eed6a98b9
+    m_Address: Assets/Deal/GameResources/UI/World/Environment/JewelryShop/UIJewelryShopPop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de5aa4b748fd94a37b520b5174b5151d
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/JewelryShop/BuildingJewelryShop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e281fe353b7d8498da145e45a603fe37
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Academy/BuildingAcademy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f76970d52be1e46ee8edcc285b6488b8
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/FarmerHouse/BuildingChickenRoost.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6818eda3eeb714c409f8de951d816b70
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/FarmerHouse/BuildingChickenRoostTD.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bdf855cf729a41e9910ed2d5b5822c3
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/FarmerHouse/BuildingHenhouse.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c55d21c671fb475d888aae467f8b29a
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Animals/chick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 049c37fd4997a465ba1483a8d6173d3e
+    m_Address: Assets/Deal/GameResources/UI/Common/ToastPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c0314c8af69d74394904dcc3a273671d
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Cotton/CottonLand.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cdffac097a69d49dfbd1a8aaeaf05753
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/Cotton/CottonLand_Unlocked.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c836d2f99489440aaadfb33b53075c9a
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Resource/Res_Cotton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce70cf6990534449bb4c526869df0495
+    m_Address: Assets/Deal/GameResources/UI/Addiction/UIPrivacyAgreement.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 750fa4df45a0e431dab53c8c89f36747
+    m_Address: Assets/Deal/GameResources/UI/World/Environment/Setting/UIUserPrivacy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd63987bcca294fa9bff3545bb33fcbf
+    m_Address: Assets/Deal/GameResFirst/Json/RandomName.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6b0f53eb5ecd4ce38d1777614528a3d
+    m_Address: Assets/Deal/GameResources/UI/World/Environment/Setting/UINickName.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe3433f4c39f245bd88b1d901b2a25c4
+    m_Address: Assets/Deal/GameResources/UI/Rank/UIRank.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43e1d8b351dc4454ea1f457991b3c00f
+    m_Address: Assets/Deal/GameResources/UI/Reward/UISevenday.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5c0ea1c06feb4ea2864eebddc78f1b5
+    m_Address: Assets/Deal/GameResources/UI/Reward/UIDailyTask.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2b6b7b6d080a4ed582d44a9b1aefb7c
+    m_Address: Assets/Deal/GameResources/Prefabs/Environment/Buildings/SpaceShip/BuildingSpaceShip.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7a68596eeb97f481586f1c8f63f9cb84, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 453c3f2f7a98044bea73c8f8989be2c6, type: 2}
+    - {fileID: 11400000, guid: 3ab8c49a7b78d4560975ab54a2062670, type: 2}
